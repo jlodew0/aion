@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="1.6" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="log4j-1.2.16.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ChatServer/lib/log4j-1.2.16.jar!/"/>
+	</lib>
+	<lib name="ax-commons-1.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ChatServer/lib/ax-commons-1.0.1.jar!/"/>
+	</lib>
+	<lib name="commons-dbcp-1.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ChatServer/lib/commons-dbcp-1.4.jar!/"/>
+	</lib>
+	<lib name="commons-io-1.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ChatServer/lib/commons-io-1.4.jar!/"/>
+	</lib>
+	<lib name="commons-lang-2.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ChatServer/lib/commons-lang-2.5.jar!/"/>
+	</lib>
+	<lib name="commons-pool-1.5.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ChatServer/lib/commons-pool-1.5.4.jar!/"/>
+	</lib>
+	<lib name="javac-1.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ChatServer/lib/javac-1.0.jar!/"/>
+	</lib>
+	<lib name="javolution-5.5.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ChatServer/lib/javolution-5.5.1.jar!/"/>
+	</lib>
+	<lib name="junit-4.6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ChatServer/lib/junit-4.6.jar!/"/>
+	</lib>
+	<lib name="netty-3.2.0.BETA1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ChatServer/lib/netty-3.2.0.BETA1.jar!/"/>
+	</lib>
+</component>

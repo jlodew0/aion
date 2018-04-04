@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="bonecp-0.7.1.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/bonecp-0.7.1.RELEASE.jar!/"/>
+	</lib>
+	<lib name="commons-io-2.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/commons-io-2.4.jar!/"/>
+	</lib>
+	<lib name="guava-13.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/guava-13.0.1.jar!/"/>
+	</lib>
+	<lib name="javac.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/javac.jar!/"/>
+	</lib>
+	<lib name="javolution-5.5.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/javolution-5.5.1.jar!/"/>
+	</lib>
+	<lib name="junit-4.11.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/junit-4.11.jar!/"/>
+	</lib>
+	<lib name="logback-classic-1.0.9.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/logback-classic-1.0.9.jar!/"/>
+	</lib>
+	<lib name="logback-core-1.0.9.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/logback-core-1.0.9.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-5.1.18.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/mysql-connector-java-5.1.18.jar!/"/>
+	</lib>
+	<lib name="quartz-2.1.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/quartz-2.1.7.jar!/"/>
+	</lib>
+	<lib name="slf4j-api-1.7.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/slf4j-api-1.7.2.jar!/"/>
+	</lib>
+	<lib name="al-commons-4.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/al-commons-4.3.jar!/"/>
+	</lib>
+</component>

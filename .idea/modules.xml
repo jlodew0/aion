@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ChatServer/AE-Chat.iml" filepath="$PROJECT_DIR$/ChatServer/AE-Chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AL-Login/AL-Login.iml" filepath="$PROJECT_DIR$/AL-Login/AL-Login.iml" />
+    </modules>
+  </component>
+</project>
