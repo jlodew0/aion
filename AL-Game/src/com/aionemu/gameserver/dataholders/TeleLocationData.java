@@ -1,16 +1,14 @@
 package com.aionemu.gameserver.dataholders;
 
+import com.aionemu.gameserver.model.templates.teleport.TelelocationTemplate;
 import gnu.trove.map.hash.TIntObjectHashMap;
-
-import java.util.List;
 
 import javax.xml.bind.Unmarshaller;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-
-import com.aionemu.gameserver.model.templates.teleport.TelelocationTemplate;
+import java.util.List;
 
 /**
  * @author orz

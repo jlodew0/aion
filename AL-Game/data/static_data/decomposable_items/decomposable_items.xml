@@ -3671,8 +3671,53 @@
 			<item id="162000060" count="40"/>
 		</items>
 	</decomposable>
-	<decomposable item_id="188050569"/>
-	<!-- Todo -->
+	<decomposable item_id="188050569">
+		<items chance="7.0">
+			<item id="160001031" count="10"/>
+		</items>
+		<items chance="7.0">
+			<item id="160001032" count="10"/>
+		</items>
+		<items chance="7.0">
+			<item id="160001033" count="10"/>
+		</items>
+		<items chance="7.0">
+			<item id="160001034" count="10"/>
+		</items>
+		<items chance="7.0">
+			<item id="160001035" count="10"/>
+		</items>
+		<items chance="7.0">
+			<item id="160001036" count="10"/>
+		</items>
+		<items chance="7.0">
+			<item id="160001037" count="10"/>
+		</items>
+		<items chance="7.0">
+			<item id="160001038" count="10"/>
+		</items>
+		<items chance="7.0">
+			<item id="160001039" count="10"/>
+		</items>
+		<items chance="7.0">
+			<item id="160001040" count="10"/>
+		</items>
+		<items chance="6.0">
+			<item id="169000009" rnd_min="15" rnd_max="250"/>
+		</items>
+		<items chance="6.0">
+			<item id="164000070" count="10"/>
+		</items>
+		<items chance="6.0">
+			<item id="164000120" count="50"/>
+		</items>
+		<items chance="6.0">
+			<item id="162000056" count="10"/>
+		</items>
+		<items chance="6.0">
+			<item id="162000061" count="10"/>
+		</items>
+	</decomposable>
 	<decomposable item_id="188050570">
 		<items chance="3">
 			<item id="160001274" count="40"/>

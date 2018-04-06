@@ -17,10 +17,10 @@
 
 package com.aionemu.gameserver.dao;
 
-import java.util.ArrayList;
-
 import com.aionemu.gameserver.model.team.legion.LegionMember;
 import com.aionemu.gameserver.model.team.legion.LegionMemberEx;
+
+import java.util.ArrayList;
 
 /**
  * Class that is responsible for storing/loading legion data

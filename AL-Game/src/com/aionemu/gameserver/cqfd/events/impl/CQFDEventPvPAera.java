@@ -1,9 +1,5 @@
 package com.aionemu.gameserver.cqfd.events.impl;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-
 import com.aionemu.gameserver.cqfd.Lisener.CQFDListenerType;
 import com.aionemu.gameserver.cqfd.events.CQFDEvent;
 import com.aionemu.gameserver.cqfd.events.CQFDEventPlayer;
@@ -14,6 +10,10 @@ import com.aionemu.gameserver.cqfd.events.step.CQFDORDER;
 import com.aionemu.gameserver.cqfd.events.step.CQFDTeamCounter;
 import com.aionemu.gameserver.cqfd.events.task.impl.CQFDEventAnnounce;
 import com.aionemu.gameserver.cqfd.events.task.impl.CQFDEventReward;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 
 public class CQFDEventPvPAera extends CQFDEvent{
 	///////////////////////////////////////////////////////////////////////////////

@@ -16,27 +16,10 @@
  */
 package com.aionemu.gameserver.dataholders;
 
+import com.aionemu.gameserver.questEngine.handlers.models.*;
+
+import javax.xml.bind.annotation.*;
 import java.util.List;
-
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElements;
-import javax.xml.bind.annotation.XmlRootElement;
-
-import com.aionemu.gameserver.questEngine.handlers.models.CraftingRewardsData;
-import com.aionemu.gameserver.questEngine.handlers.models.ItemCollectingData;
-import com.aionemu.gameserver.questEngine.handlers.models.KillInWorldData;
-import com.aionemu.gameserver.questEngine.handlers.models.KillSpawnedData;
-import com.aionemu.gameserver.questEngine.handlers.models.MentorMonsterHuntData;
-import com.aionemu.gameserver.questEngine.handlers.models.MonsterHuntData;
-import com.aionemu.gameserver.questEngine.handlers.models.RelicRewardsData;
-import com.aionemu.gameserver.questEngine.handlers.models.ReportToData;
-import com.aionemu.gameserver.questEngine.handlers.models.ReportToManyData;
-import com.aionemu.gameserver.questEngine.handlers.models.SkillUseData;
-import com.aionemu.gameserver.questEngine.handlers.models.WorkOrdersData;
-import com.aionemu.gameserver.questEngine.handlers.models.XMLQuest;
-import com.aionemu.gameserver.questEngine.handlers.models.XmlQuestData;
 
 /**
  * @author MrPoke

@@ -1,9 +1,5 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.util.Iterator;
-
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.gameserver.ai2.AI2Engine;
 import com.aionemu.gameserver.ai2.AbstractAI;
 import com.aionemu.gameserver.ai2.event.AIEventLog;
@@ -16,6 +12,9 @@ import com.aionemu.gameserver.model.gameobjects.VisibleObject;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.World;
+import org.slf4j.LoggerFactory;
+
+import java.util.Iterator;
 
 /*syntax //ai2 <set|event|event2|info|log|print|createlog|eventlog|movelog>*/
 

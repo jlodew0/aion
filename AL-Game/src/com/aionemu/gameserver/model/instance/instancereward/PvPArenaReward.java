@@ -16,8 +16,6 @@
  */
 package com.aionemu.gameserver.model.instance.instancereward;
 
-import static ch.lambdaj.Lambda.*;
-import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.instance.instanceposition.ChaosInstancePosition;
 import com.aionemu.gameserver.model.instance.instanceposition.DisciplineInstancePosition;
@@ -27,13 +25,12 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_INSTANCE_SCORE;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.WorldMapInstance;
 import com.aionemu.gameserver.world.knownlist.Visitor;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import com.aionemu.commons.utils.Rnd;
 import javolution.util.FastList;
+
+import java.util.*;
+
+import static ch.lambdaj.Lambda.*;
 
 /**
  *

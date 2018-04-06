@@ -16,13 +16,12 @@
  */
 package com.aionemu.gameserver.controllers.attack;
 
+import com.aionemu.gameserver.configs.main.CustomConfig;
+import javolution.util.FastMap;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
-import com.aionemu.gameserver.configs.main.CustomConfig;
-
-import javolution.util.FastMap;
 
 /**
  * @author Sarynth

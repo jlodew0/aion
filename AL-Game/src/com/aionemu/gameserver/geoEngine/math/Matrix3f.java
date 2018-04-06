@@ -32,13 +32,12 @@
 
 package com.aionemu.gameserver.geoEngine.math;
 
-import java.nio.FloatBuffer;
-import java.util.logging.Logger;
-
+import com.aionemu.gameserver.geoEngine.utils.BufferUtils;
 import javolution.context.ObjectFactory;
 import javolution.lang.Reusable;
 
-import com.aionemu.gameserver.geoEngine.utils.BufferUtils;
+import java.nio.FloatBuffer;
+import java.util.logging.Logger;
 
 /**
  * <code>Matrix3f</code> defines a 3x3 matrix. Matrix data is maintained

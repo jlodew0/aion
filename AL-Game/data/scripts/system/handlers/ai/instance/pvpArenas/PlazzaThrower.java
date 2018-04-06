@@ -1,8 +1,6 @@
 package ai.instance.pvpArenas;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import ai.ActionItemNpcAI2;
 import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.ai2.AI2Actions;
 import com.aionemu.gameserver.ai2.AIName;
@@ -13,7 +11,8 @@ import com.aionemu.gameserver.model.instance.playerreward.InstancePlayerReward;
 import com.aionemu.gameserver.skillengine.SkillEngine;
 import com.aionemu.gameserver.utils.MathUtil;
 
-import ai.ActionItemNpcAI2;
+import java.util.ArrayList;
+import java.util.List;
 
 @AIName("plazzathrower")
 public class PlazzaThrower extends ActionItemNpcAI2 {

@@ -16,13 +16,12 @@
  */
 package com.aionemu.gameserver.world;
 
-import java.util.Collection;
-
+import com.aionemu.gameserver.model.gameobjects.AionObject;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aionemu.gameserver.model.gameobjects.AionObject;
-import com.aionemu.gameserver.utils.ThreadPoolManager;
+import java.util.Collection;
 
 /**
  * @author xavier

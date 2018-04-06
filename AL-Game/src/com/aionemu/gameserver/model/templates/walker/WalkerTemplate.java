@@ -16,19 +16,13 @@
  */
 package com.aionemu.gameserver.model.templates.walker;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.aionemu.gameserver.spawnengine.WalkerGroupType;
 
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlTransient;
-
-import com.aionemu.gameserver.spawnengine.WalkerGroupType;
+import javax.xml.bind.annotation.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author KKnD

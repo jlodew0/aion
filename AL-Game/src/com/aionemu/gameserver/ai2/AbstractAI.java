@@ -16,8 +16,6 @@
  */
 package com.aionemu.gameserver.ai2;
 
-import com.aionemu.commons.callbacks.metadata.ObjectCallback;
-import com.aionemu.commons.network.util.ThreadPoolManager;
 import com.aionemu.gameserver.ai2.event.AIEventLog;
 import com.aionemu.gameserver.ai2.event.AIEventType;
 import com.aionemu.gameserver.ai2.eventcallback.OnHandleAIGeneralEvent;
@@ -44,6 +42,8 @@ import com.aionemu.gameserver.spawnengine.WalkerGroup;
 import com.aionemu.gameserver.utils.MathUtil;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.WorldPosition;
+import com.aionemu.commons.callbacks.metadata.ObjectCallback;
+import com.aionemu.commons.network.util.ThreadPoolManager;
 
 import java.util.ArrayList;
 import java.util.List;

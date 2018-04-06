@@ -16,9 +16,9 @@
  */
 package com.aionemu.gameserver.model.gameobjects.player;
 
-import java.util.LinkedHashMap;
-
 import com.aionemu.gameserver.model.trade.TradePSItem;
+
+import java.util.LinkedHashMap;
 
 /**
  * @author Xav Modified by Simple

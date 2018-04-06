@@ -16,11 +16,11 @@
  */
 package com.aionemu.gameserver.geoEngine.scene.mesh;
 
-import java.util.BitSet;
-
 import com.aionemu.gameserver.geoEngine.collision.Collidable;
 import com.aionemu.gameserver.geoEngine.collision.CollisionResults;
 import com.aionemu.gameserver.geoEngine.scene.Geometry;
+
+import java.util.BitSet;
 
 
 /**

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="al-commons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AL-Game/libs/al-commons.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

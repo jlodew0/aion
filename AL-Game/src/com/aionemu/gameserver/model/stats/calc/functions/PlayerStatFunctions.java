@@ -16,14 +16,14 @@
  */
 package com.aionemu.gameserver.model.stats.calc.functions;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.stats.calc.Stat2;
 import com.aionemu.gameserver.model.stats.container.StatEnum;
 import com.aionemu.gameserver.model.templates.item.ItemTemplate;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author ATracer

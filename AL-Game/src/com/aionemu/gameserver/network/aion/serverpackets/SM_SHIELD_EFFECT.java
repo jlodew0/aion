@@ -20,8 +20,9 @@ import com.aionemu.gameserver.model.siege.SiegeLocation;
 import com.aionemu.gameserver.network.aion.AionConnection;
 import com.aionemu.gameserver.network.aion.AionServerPacket;
 import com.aionemu.gameserver.services.SiegeService;
-import java.util.Map;
 import javolution.util.FastMap;
+
+import java.util.Map;
 
 /**
  * @author xTz, Source

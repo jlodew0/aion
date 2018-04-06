@@ -16,11 +16,10 @@
  */
 package com.aionemu.gameserver.model.gameobjects.player;
 
-import java.util.HashMap;
-
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.slf4j.Logger;
+import java.util.HashMap;
 
 /**
  * Manages the asking of and responding to <tt>SM_QUESTION_WINDOW</tt>

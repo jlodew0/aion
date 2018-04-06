@@ -1,11 +1,10 @@
 package ai.instance.abyssal_splinter;
 
+import ai.HomingNpcAI2;
 import com.aionemu.gameserver.ai2.AI2Actions;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.utils.MathUtil;
-
-import ai.HomingNpcAI2;
 
 @AIName("rukrilebonsoulfragment")
 public class RukrilEbonsoulFragment extends HomingNpcAI2{

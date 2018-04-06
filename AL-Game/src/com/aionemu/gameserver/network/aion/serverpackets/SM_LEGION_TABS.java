@@ -16,13 +16,13 @@
  */
 package com.aionemu.gameserver.network.aion.serverpackets;
 
-import java.nio.ByteBuffer;
-import java.nio.charset.Charset;
-import java.util.Collection;
-
 import com.aionemu.gameserver.model.team.legion.LegionHistory;
 import com.aionemu.gameserver.network.aion.AionConnection;
 import com.aionemu.gameserver.network.aion.AionServerPacket;
+
+import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
+import java.util.Collection;
 
 /**
  * @author Simple, KID

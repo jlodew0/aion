@@ -16,7 +16,6 @@
  */
 package com.aionemu.gameserver.skillengine.task;
 
-import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.configs.main.CraftConfig;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.gameobjects.StaticObject;
@@ -27,6 +26,7 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_CRAFT_ANIMATION;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_CRAFT_UPDATE;
 import com.aionemu.gameserver.services.CraftService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.commons.utils.Rnd;
 
 /**
  * @author Mr. Poke, synchro2

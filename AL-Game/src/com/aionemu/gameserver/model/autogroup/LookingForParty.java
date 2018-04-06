@@ -17,6 +17,7 @@
 package com.aionemu.gameserver.model.autogroup;
 
 import com.aionemu.gameserver.model.gameobjects.player.Player;
+
 import java.util.ArrayList;
 import java.util.List;
 

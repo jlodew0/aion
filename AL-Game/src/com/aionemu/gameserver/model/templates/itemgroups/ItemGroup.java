@@ -16,10 +16,10 @@
  */
 package com.aionemu.gameserver.model.templates.itemgroups;
 
-import javax.xml.bind.annotation.*;
-
 import com.aionemu.gameserver.model.templates.rewards.BonusType;
 import com.aionemu.gameserver.model.templates.rewards.IdReward;
+
+import javax.xml.bind.annotation.*;
 
 /**
  * @author Rolandas

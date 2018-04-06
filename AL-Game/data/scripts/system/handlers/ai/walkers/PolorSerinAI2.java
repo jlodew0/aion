@@ -16,14 +16,13 @@
  */
 package ai.walkers;
 
-import org.apache.commons.lang.ArrayUtils;
-
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.ai2.handler.MoveEventHandler;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.VisibleObject;
 import com.aionemu.gameserver.model.gameobjects.state.CreatureState;
 import com.aionemu.gameserver.utils.MathUtil;
+import org.apache.commons.lang.ArrayUtils;
 
 
 /**

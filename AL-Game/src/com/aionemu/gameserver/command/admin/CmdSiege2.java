@@ -14,9 +14,10 @@ import com.aionemu.gameserver.services.SiegeService;
 import com.aionemu.gameserver.services.siegeservice.Siege;
 import com.aionemu.gameserver.services.siegeservice.SiegeRaceCounter;
 import com.aionemu.gameserver.utils.PacketSendUtility;
-import java.util.List;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
+
+import java.util.List;
 
 
 

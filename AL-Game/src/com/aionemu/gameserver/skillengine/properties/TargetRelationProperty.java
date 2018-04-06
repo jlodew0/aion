@@ -17,15 +17,15 @@
 
 package com.aionemu.gameserver.skillengine.properties;
 
-import java.util.Iterator;
-import java.util.List;
-
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.Servant;
 import com.aionemu.gameserver.model.gameobjects.Summon;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.skillengine.model.Skill;
+
+import java.util.Iterator;
+import java.util.List;
 
 /**
  * @author ATracer

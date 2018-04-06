@@ -16,7 +16,8 @@
  */
 package com.aionemu.gameserver.services.siegeservice;
 
-import com.aionemu.commons.callbacks.EnhancedObject;
+//import com.aionemu.commons.callbacks.EnhancedObject;
+
 import com.aionemu.gameserver.ai2.AbstractAI;
 import com.aionemu.gameserver.configs.main.SiegeConfig;
 import com.aionemu.gameserver.model.gameobjects.Creature;
@@ -24,11 +25,13 @@ import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
 import com.aionemu.gameserver.model.siege.SiegeLocation;
 import com.aionemu.gameserver.services.SiegeService;
 import com.aionemu.gameserver.world.World;
+import com.aionemu.commons.callbacks.EnhancedObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.Collection;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicBoolean;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public abstract class Siege<SL extends SiegeLocation> {
 

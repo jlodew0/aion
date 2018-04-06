@@ -16,16 +16,6 @@
  */
 package com.aionemu.gameserver.controllers.attack;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-
-import javolution.util.FastMap;
-
-import com.aionemu.commons.callbacks.Callback;
-import com.aionemu.commons.callbacks.CallbackResult;
-import com.aionemu.commons.callbacks.metadata.ObjectCallback;
 import com.aionemu.gameserver.ai2.event.AIEventType;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.Race;
@@ -36,6 +26,15 @@ import com.aionemu.gameserver.model.gameobjects.VisibleObject;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.team2.group.PlayerGroup;
 import com.aionemu.gameserver.world.knownlist.Visitor;
+import com.aionemu.commons.callbacks.Callback;
+import com.aionemu.commons.callbacks.CallbackResult;
+import com.aionemu.commons.callbacks.metadata.ObjectCallback;
+import javolution.util.FastMap;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author ATracer, KKnD

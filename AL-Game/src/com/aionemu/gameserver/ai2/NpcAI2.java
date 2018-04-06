@@ -16,9 +16,6 @@
  */
 package com.aionemu.gameserver.ai2;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.aionemu.gameserver.ai2.handler.ActivateEventHandler;
 import com.aionemu.gameserver.ai2.handler.DiedEventHandler;
 import com.aionemu.gameserver.ai2.handler.ShoutEventHandler;
@@ -44,6 +41,9 @@ import com.aionemu.gameserver.model.templates.npc.NpcTemplate;
 import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
 import com.aionemu.gameserver.utils.MathUtil;
 import com.aionemu.gameserver.world.knownlist.KnownList;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author ATracer

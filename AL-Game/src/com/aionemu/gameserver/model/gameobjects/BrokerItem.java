@@ -16,13 +16,12 @@
  */
 package com.aionemu.gameserver.model.gameobjects;
 
+import com.aionemu.gameserver.model.broker.BrokerRace;
+import org.apache.commons.lang.StringUtils;
+
 import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.Comparator;
-
-import org.apache.commons.lang.StringUtils;
-
-import com.aionemu.gameserver.model.broker.BrokerRace;
 
 /**
  * @author kosyachok

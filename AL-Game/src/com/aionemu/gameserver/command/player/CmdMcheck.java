@@ -1,7 +1,5 @@
 package com.aionemu.gameserver.command.player;
 
-import java.util.Collection;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.questEngine.QuestEngine;
@@ -9,6 +7,8 @@ import com.aionemu.gameserver.questEngine.model.QuestEnv;
 import com.aionemu.gameserver.questEngine.model.QuestState;
 import com.aionemu.gameserver.questEngine.model.QuestStatus;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+
+import java.util.Collection;
 
 /**
  * Checks all LOCKED missions for start conditions immediately And starts them, if conditions are fulfilled

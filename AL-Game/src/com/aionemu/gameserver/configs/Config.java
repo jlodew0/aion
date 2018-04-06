@@ -16,11 +16,6 @@
  */
 package com.aionemu.gameserver.configs;
 
-import java.util.Properties;
-
-import org.slf4j.LoggerFactory;
-import org.slf4j.Logger;
-
 import com.aionemu.commons.configs.CommonsConfig;
 import com.aionemu.commons.configs.DatabaseConfig;
 import com.aionemu.commons.configuration.ConfigurableProcessor;
@@ -35,6 +30,10 @@ import com.aionemu.gameserver.configs.main.*;
 import com.aionemu.gameserver.configs.network.IPConfig;
 import com.aionemu.gameserver.configs.network.NetworkConfig;
 import com.aionemu.gameserver.utils.Util;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.Properties;
 
 /**
  * @author Nemesiss, SoulKeeper

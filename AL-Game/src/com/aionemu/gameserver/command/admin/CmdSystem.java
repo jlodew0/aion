@@ -1,7 +1,5 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.util.List;
-
 import com.aionemu.commons.utils.AEInfos;
 import com.aionemu.gameserver.ShutdownHook;
 import com.aionemu.gameserver.ShutdownHook.ShutdownMode;
@@ -10,6 +8,8 @@ import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.utils.AEVersions;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
+
+import java.util.List;
 
 
 public class CmdSystem extends BaseCommand {

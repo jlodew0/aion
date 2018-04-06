@@ -16,8 +16,8 @@
  */
 package com.aionemu.gameserver.model.skill;
 
-import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.model.templates.npcskill.NpcSkillTemplate;
+import com.aionemu.commons.utils.Rnd;
 
 /**
  * @author ATracer

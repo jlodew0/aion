@@ -16,15 +16,6 @@
  */
 package com.aionemu.gameserver.network.loginserver;
 
-import java.nio.channels.SelectionKey;
-import java.nio.channels.SocketChannel;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.commons.network.Dispatcher;
 import com.aionemu.commons.network.NioServer;
 import com.aionemu.gameserver.configs.network.NetworkConfig;
@@ -35,13 +26,17 @@ import com.aionemu.gameserver.network.aion.AionConnection;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_L2AUTH_LOGIN_CHECK;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_RECONNECT_KEY;
 import com.aionemu.gameserver.network.loginserver.LoginServerConnection.State;
-import com.aionemu.gameserver.network.loginserver.serverpackets.SM_ACCOUNT_AUTH;
-import com.aionemu.gameserver.network.loginserver.serverpackets.SM_ACCOUNT_DISCONNECTED;
-import com.aionemu.gameserver.network.loginserver.serverpackets.SM_ACCOUNT_RECONNECT_KEY;
-import com.aionemu.gameserver.network.loginserver.serverpackets.SM_BAN;
-import com.aionemu.gameserver.network.loginserver.serverpackets.SM_LS_CONTROL;
+import com.aionemu.gameserver.network.loginserver.serverpackets.*;
 import com.aionemu.gameserver.services.AccountService;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.nio.channels.SelectionKey;
+import java.nio.channels.SocketChannel;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Utill class for connecting GameServer to LoginServer.

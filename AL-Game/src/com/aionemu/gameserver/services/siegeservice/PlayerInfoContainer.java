@@ -1,9 +1,9 @@
 package com.aionemu.gameserver.services.siegeservice;
 
-import java.util.HashMap;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.HashMap;
 
 public class PlayerInfoContainer{
 	private static final Logger log = LoggerFactory.getLogger(PlayerInfoContainer.class);

@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>net.aionengine</groupId>
-    <artifactId>ae-commons</artifactId>
-    <version>1.4</version>
-    <name>Aion Engine Commons</name>
+    <groupId>org.aionemu</groupId>
+    <artifactId>al-commons</artifactId>
+    <version>1.3</version>
+    <name>Aion Lightning Commons</name>
     <packaging>jar</packaging>
     <scm>
         <developerConnection>scm:svn:https://subversion.assembla.com/svn/aion-engine/trunk/AE-Commons</developerConnection>
@@ -203,7 +203,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>net.aionengine</groupId>
+            <groupId>javolution</groupId>
             <artifactId>javolution</artifactId>
             <version>5.5.1</version>
         </dependency>

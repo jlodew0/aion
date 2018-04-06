@@ -21,8 +21,9 @@ import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.templates.item.ItemQuality;
 import com.aionemu.gameserver.services.drop.DropDistributionService;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
-import java.util.Collection;
 import javolution.util.FastList;
+
+import java.util.Collection;
 
 /**
  * @author ATracer, xTz

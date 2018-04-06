@@ -32,13 +32,13 @@
 
 package com.aionemu.gameserver.geoEngine.bounding;
 
-import java.nio.FloatBuffer;
-
 import com.aionemu.gameserver.geoEngine.collision.Collidable;
 import com.aionemu.gameserver.geoEngine.math.Matrix4f;
 import com.aionemu.gameserver.geoEngine.math.Plane;
 import com.aionemu.gameserver.geoEngine.math.Ray;
 import com.aionemu.gameserver.geoEngine.math.Vector3f;
+
+import java.nio.FloatBuffer;
 
 /**
  * <code>BoundingVolume</code> defines an interface for dealing with

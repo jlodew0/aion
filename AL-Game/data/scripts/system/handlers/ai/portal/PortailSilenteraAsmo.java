@@ -1,13 +1,12 @@
 package ai.portal;
 
+import ai.PortalAI2;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.siege.SiegeRace;
 import com.aionemu.gameserver.services.SiegeService;
 import com.aionemu.gameserver.services.teleport.TeleportService;
-
-import ai.PortalAI2;
 
 /**
  * @author joelc

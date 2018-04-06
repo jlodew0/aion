@@ -16,9 +16,6 @@
  */
 package com.aionemu.gameserver.command.admin;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.stats.calc.StatOwner;
@@ -27,6 +24,9 @@ import com.aionemu.gameserver.model.stats.calc.functions.StatAddFunction;
 import com.aionemu.gameserver.model.stats.container.StatEnum;
 import com.aionemu.gameserver.services.MotionLoggingService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class CmdMotion extends BaseCommand implements StatOwner {

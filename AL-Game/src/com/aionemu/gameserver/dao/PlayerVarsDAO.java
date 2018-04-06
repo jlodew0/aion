@@ -1,8 +1,8 @@
 package com.aionemu.gameserver.dao;
 
-import java.util.Map;
-
 import com.aionemu.commons.database.dao.DAO;
+
+import java.util.Map;
 
 /**
  * @author KID

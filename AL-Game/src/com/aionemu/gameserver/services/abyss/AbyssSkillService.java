@@ -16,12 +16,11 @@
  */
 package com.aionemu.gameserver.services.abyss;
 
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.gameobjects.player.AbyssRank;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.utils.stats.AbyssRankEnum;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author ATracer

@@ -16,10 +16,9 @@
  */
 package com.aionemu.gameserver.model.templates.npcshout;
 
+import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.xml.bind.annotation.*;
 
 /**
  * @author Rolandas

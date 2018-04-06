@@ -16,9 +16,9 @@
  */
 package com.aionemu.gameserver.model.team2.alliance.callback;
 
+import com.aionemu.gameserver.model.team2.alliance.PlayerAlliance;
 import com.aionemu.commons.callbacks.Callback;
 import com.aionemu.commons.callbacks.CallbackResult;
-import com.aionemu.gameserver.model.team2.alliance.PlayerAlliance;
 
 /**
  * @author ATracer

@@ -16,19 +16,10 @@
  */
 package com.aionemu.gameserver.model.templates.stats;
 
+import com.aionemu.gameserver.model.stats.calc.functions.*;
+
+import javax.xml.bind.annotation.*;
 import java.util.List;
-
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElements;
-import javax.xml.bind.annotation.XmlRootElement;
-
-import com.aionemu.gameserver.model.stats.calc.functions.StatAddFunction;
-import com.aionemu.gameserver.model.stats.calc.functions.StatFunction;
-import com.aionemu.gameserver.model.stats.calc.functions.StatRateFunction;
-import com.aionemu.gameserver.model.stats.calc.functions.StatSetFunction;
-import com.aionemu.gameserver.model.stats.calc.functions.StatSubFunction;
 
 /**
  * @author xavier

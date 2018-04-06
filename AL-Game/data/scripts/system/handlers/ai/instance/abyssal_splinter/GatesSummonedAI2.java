@@ -16,10 +16,7 @@
  */
 package ai.instance.abyssal_splinter;
 
-import java.util.concurrent.Future;
-
 import ai.GeneralNpcAI2;
-
 import com.aionemu.commons.network.util.ThreadPoolManager;
 import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.ai2.AI2Actions;
@@ -29,6 +26,8 @@ import com.aionemu.gameserver.ai2.AbstractAI;
 import com.aionemu.gameserver.ai2.manager.EmoteManager;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.skillengine.SkillEngine;
+
+import java.util.concurrent.Future;
 
 /**
  *

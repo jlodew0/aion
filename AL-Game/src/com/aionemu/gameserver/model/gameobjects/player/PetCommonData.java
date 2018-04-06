@@ -16,13 +16,13 @@
  */
 package com.aionemu.gameserver.model.gameobjects.player;
 
-import java.sql.Timestamp;
-
-import com.aionemu.commons.database.dao.DAOManager;
 import com.aionemu.gameserver.dao.PlayerPetsDAO;
 import com.aionemu.gameserver.model.templates.VisibleObjectTemplate;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.utils.idfactory.IDFactory;
+import com.aionemu.commons.database.dao.DAOManager;
+
+import java.sql.Timestamp;
 
 /**
  * @author ATracer

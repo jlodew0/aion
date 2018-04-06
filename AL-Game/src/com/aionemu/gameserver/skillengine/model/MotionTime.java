@@ -1,11 +1,10 @@
 package com.aionemu.gameserver.skillengine.model;
 
-import java.util.HashMap;
+import com.aionemu.gameserver.model.templates.item.WeaponType;
 
 import javax.xml.bind.Unmarshaller;
 import javax.xml.bind.annotation.*;
-
-import com.aionemu.gameserver.model.templates.item.WeaponType;
+import java.util.HashMap;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "motion_time")

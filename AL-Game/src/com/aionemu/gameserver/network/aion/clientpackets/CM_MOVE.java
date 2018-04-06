@@ -20,12 +20,12 @@ package com.aionemu.gameserver.network.aion.clientpackets;
 //import org.slf4j.LoggerFactory;
 
 //import com.aionemu.gameserver.configs.administration.AdminConfig;
+
 import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.configs.main.GSConfig;
 import com.aionemu.gameserver.controllers.movement.MovementMask;
 import com.aionemu.gameserver.controllers.movement.PlayerMoveController;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
-//import com.aionemu.gameserver.model.templates.zone.ZoneType;
 import com.aionemu.gameserver.network.aion.AionClientPacket;
 import com.aionemu.gameserver.network.aion.AionConnection.State;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_MOVE;
@@ -37,6 +37,8 @@ import com.aionemu.gameserver.utils.MathUtil;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.audit.AuditLogger;
 import com.aionemu.gameserver.world.World;
+
+//import com.aionemu.gameserver.model.templates.zone.ZoneType;
 
 /**
  * Packet about player movement.

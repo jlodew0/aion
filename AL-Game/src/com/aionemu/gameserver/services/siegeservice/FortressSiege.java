@@ -16,9 +16,7 @@
  */
 package com.aionemu.gameserver.services.siegeservice;
 
-import com.aionemu.commons.callbacks.util.GlobalCallbackHelper;
 import com.aionemu.gameserver.configs.main.LoggingConfig;
-import com.aionemu.commons.database.dao.DAOManager;
 import com.aionemu.gameserver.configs.main.SiegeConfig;
 import com.aionemu.gameserver.dao.PlayerDAO;
 import com.aionemu.gameserver.dao.SiegeDAO;
@@ -33,15 +31,16 @@ import com.aionemu.gameserver.services.SiegeService;
 import com.aionemu.gameserver.services.SystemMailService;
 import com.aionemu.gameserver.services.player.PlayerService;
 import com.aionemu.gameserver.world.knownlist.Visitor;
+import com.aionemu.commons.callbacks.util.GlobalCallbackHelper;
+import com.aionemu.commons.database.dao.DAOManager;
 import com.google.common.collect.Lists;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * Object that controls siege of certain fortress. Siege object is not reusable.

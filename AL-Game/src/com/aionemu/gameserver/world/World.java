@@ -16,7 +16,6 @@
  */
 package com.aionemu.gameserver.world;
 
-import com.aionemu.commons.utils.GenericValidator;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.dataholders.PlayerInitialData.LocationData;
 import com.aionemu.gameserver.model.gameobjects.Creature;
@@ -33,7 +32,7 @@ import com.aionemu.gameserver.world.exceptions.DuplicateAionObjectException;
 import com.aionemu.gameserver.world.exceptions.NotSetPositionException;
 import com.aionemu.gameserver.world.exceptions.WorldMapNotExistException;
 import com.aionemu.gameserver.world.knownlist.Visitor;
-
+import com.aionemu.commons.utils.GenericValidator;
 import gnu.trove.map.hash.TIntObjectHashMap;
 import javolution.util.FastList;
 import javolution.util.FastMap;

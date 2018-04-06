@@ -16,8 +16,6 @@
  */
 package com.aionemu.gameserver.controllers.movement;
 
-import java.util.List;
-
 import com.aionemu.gameserver.ai2.AI2Logger;
 import com.aionemu.gameserver.ai2.AIState;
 import com.aionemu.gameserver.ai2.AISubState;
@@ -35,6 +33,8 @@ import com.aionemu.gameserver.utils.MathUtil;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.geo.GeoService;
+
+import java.util.List;
 
 /**
  * @author ATracer

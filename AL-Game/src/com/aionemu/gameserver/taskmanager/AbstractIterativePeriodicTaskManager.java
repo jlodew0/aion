@@ -16,11 +16,10 @@
  */
 package com.aionemu.gameserver.taskmanager;
 
-import java.util.Set;
-
+import com.aionemu.commons.utils.concurrent.RunnableStatsManager;
 import javolution.util.FastSet;
 
-import com.aionemu.commons.utils.concurrent.RunnableStatsManager;
+import java.util.Set;
 
 /**
  * @author NB4L1

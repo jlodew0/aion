@@ -17,14 +17,15 @@
 package com.aionemu.gameserver.dataholders;
 
 import com.aionemu.gameserver.model.templates.cosmeticitems.CosmeticItemTemplate;
-import java.util.List;
-import java.util.Map;
+import javolution.util.FastMap;
+
 import javax.xml.bind.Unmarshaller;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import javolution.util.FastMap;
+import java.util.List;
+import java.util.Map;
 /**
  *
  * @author xTz

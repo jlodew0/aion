@@ -102,7 +102,7 @@
 			2281 [XML] Finishing off Fighters
 			2282 [XML] Killing Kumbaron's Followers
 			2283 [XML] Report to Pandaemonium
-			2284 [TODO] Escaping Asmodae
+			2284 [SCRIPT] Escaping Asmodae
 			2285 [XML] Leinolz's Request
 			2286 [XML] The Brigade General's Order
 			2287 [XML] Order to Valurion
@@ -117,7 +117,7 @@
 			2296 [XML] A Bill Found in a Box
 			2297 [XML] Disgruntled Workers
 			2298 [XML] Lakutu's Exchange
-			2299 [TODO] Lakutu's Trade
+			2299 [XML] [Manastone] Lakutu's Trade
 			9556 [TODO] [Event] Ascension Blessings
 			9557 [TODO] [Event] Yearning for the Sky
 			80005 [TODO] [Event] Heart Headband Pursuit
@@ -181,6 +181,7 @@
 	<item_collecting id="2292" start_npc_id="203625"/>
 	<item_collecting id="2297" start_npc_id="798105"/>
 	<item_collecting id="2298" start_npc_id="203690"/>
+	<item_collecting id="2299" start_npc_id="203690"/>
 	<!-- HUNTING QUESTS -->
 	<monster_hunt id="2201" start_npc_id="203563">
 		<monster var="0" npc_id="210414" end_var="10"/>

@@ -16,13 +16,13 @@
  */
 package com.aionemu.gameserver.network.aion.iteminfo;
 
-import java.nio.ByteBuffer;
-
 import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.templates.item.EquipType;
 import com.aionemu.gameserver.model.templates.item.ItemTemplate;
 import com.aionemu.gameserver.network.PacketWriteHelper;
+
+import java.nio.ByteBuffer;
 
 /**
  * Entry item info packet data (contains blob entries with detailed info).

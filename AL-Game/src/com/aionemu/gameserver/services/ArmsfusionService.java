@@ -16,10 +16,6 @@
  */
 package com.aionemu.gameserver.services;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import com.aionemu.commons.database.DatabaseFactory;
 import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.Npc;
@@ -33,6 +29,11 @@ import com.aionemu.gameserver.services.item.ItemPacketService;
 import com.aionemu.gameserver.services.item.ItemSocketService;
 import com.aionemu.gameserver.services.trade.PricesService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 
 /**
  * This class is responsible of Armsfusion-related tasks (fusion,breaking)

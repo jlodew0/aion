@@ -48,9 +48,10 @@
             description="Compile the source.">
 
         <javac destdir="${build.classes}" optimize="on" debug="on" 
-        	nowarn="off" 
-        	source="1.6"
-            target="1.6">
+        	nowarn="on"
+               verbose="on"
+        	source="1.8"
+            target="1.8">
         	
         	<src path="${src}"/>
             <classpath refid="classpath"/> 
@@ -91,7 +92,7 @@
     	
     	<copy todir="${build.dist.commons}/libs">
             <fileset dir="${build}">
-                <include name="ae_commons.jar"/>
+                <include name="al_commons.jar"/>
 			</fileset>
         </copy>
     	
@@ -107,7 +108,7 @@
             </fileset>
         </copy>
 
-        <zip destfile="${build}/ae_commons.zip"
+        <zip destfile="${build}/al_commons.zip"
              basedir="${build.dist.commons}" />
     </target>
 </project>

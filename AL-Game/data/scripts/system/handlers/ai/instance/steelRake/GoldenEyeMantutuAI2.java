@@ -16,9 +16,7 @@ package ai.instance.steelRake;
  * along with aion-lightning. If not, see <http://www.gnu.org/licenses/>.
  */
 
-import java.util.concurrent.Future;
-import java.util.concurrent.atomic.AtomicBoolean;
-
+import ai.AggressiveNpcAI2;
 import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.ai2.AIState;
@@ -36,7 +34,8 @@ import com.aionemu.gameserver.skillengine.SkillEngine;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
 
-import ai.AggressiveNpcAI2;
+import java.util.concurrent.Future;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * @author xTz

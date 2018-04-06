@@ -16,12 +16,6 @@
  */
 package ai;
 
-import static ch.lambdaj.Lambda.maxFrom;
-
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-
 import com.aionemu.gameserver.ai2.AI2Actions;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.configs.main.GroupConfig;
@@ -35,6 +29,12 @@ import com.aionemu.gameserver.services.drop.DropRegistrationService;
 import com.aionemu.gameserver.services.drop.DropService;
 import com.aionemu.gameserver.utils.MathUtil;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.List;
+
+import static ch.lambdaj.Lambda.maxFrom;
 
 /**
  * @author ATracer, xTz

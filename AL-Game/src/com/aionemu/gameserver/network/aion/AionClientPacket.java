@@ -16,14 +16,13 @@
  */
 package com.aionemu.gameserver.network.aion;
 
-import java.util.EnumSet;
-import java.util.Set;
-
+import com.aionemu.gameserver.network.aion.AionConnection.State;
+import com.aionemu.commons.network.packet.BaseClientPacket;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aionemu.commons.network.packet.BaseClientPacket;
-import com.aionemu.gameserver.network.aion.AionConnection.State;
+import java.util.EnumSet;
+import java.util.Set;
 
 /**
  * Base class for every Aion -> LS Client Packet

@@ -1,8 +1,5 @@
 package com.aionemu.gameserver.services.siegeservice;
 
-import java.util.Collections;
-import java.util.Map;
-
 import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.siege.OutpostLocation;
@@ -14,6 +11,9 @@ import com.aionemu.gameserver.services.player.PlayerService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.knownlist.Visitor;
+
+import java.util.Collections;
+import java.util.Map;
 
 public class OutpostSiege extends Siege<OutpostLocation> {
 

@@ -1,12 +1,11 @@
 package com.aionemu.gameserver.network;
 
-import java.io.IOException;
-
+import com.aionemu.commons.utils.PropertiesUtils;
+import com.aionemu.gameserver.configs.main.CustomConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aionemu.commons.utils.PropertiesUtils;
-import com.aionemu.gameserver.configs.main.CustomConfig;
+import java.io.IOException;
 
 /**
  * @author KID

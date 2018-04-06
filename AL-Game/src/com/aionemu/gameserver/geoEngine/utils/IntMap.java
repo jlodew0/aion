@@ -32,9 +32,9 @@
 
 package com.aionemu.gameserver.geoEngine.utils;
 
-import java.util.Iterator;
-
 import com.aionemu.gameserver.geoEngine.utils.IntMap.Entry;
+
+import java.util.Iterator;
 /**
  * Taken from http://code.google.com/p/skorpios/
  * 

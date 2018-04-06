@@ -16,12 +16,6 @@
  */
 package com.aionemu.gameserver.network.aion.serverpackets;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-
-import javolution.util.FastMap;
-
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.gameobjects.player.PortalCooldownList;
@@ -31,6 +25,11 @@ import com.aionemu.gameserver.network.aion.AionConnection;
 import com.aionemu.gameserver.network.aion.AionServerPacket;
 import com.aionemu.gameserver.services.instance.InstanceService;
 import com.aionemu.gameserver.world.World;
+import javolution.util.FastMap;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 /**
  * @author xavier

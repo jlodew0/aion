@@ -33,10 +33,10 @@
 
 package com.aionemu.gameserver.geoEngine.math;
 
-import java.util.logging.Logger;
-
 import javolution.context.ObjectFactory;
 import javolution.lang.Reusable;
+
+import java.util.logging.Logger;
 
 /*
  * -- Added *Local methods to cut down on object creation - JS

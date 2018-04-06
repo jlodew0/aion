@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<npc_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<npc_templates>
 <!-- Souffre ASMO Entrée -->
 	<npc_template npc_id="700529" level="1" name="hidden stone door" name_id="371270" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_DARK" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3" state="67">
 		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>

@@ -1,13 +1,14 @@
 package com.aionemu.gameserver.services.tvt;
 
-import java.util.Collections;
-import javolution.util.FastList;
 import com.aionemu.gameserver.configs.main.EventsConfig;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.team2.group.PlayerGroup;
 import com.aionemu.gameserver.model.team2.group.PlayerGroupMember;
 import com.aionemu.gameserver.model.team2.group.PlayerGroupService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+import javolution.util.FastList;
+
+import java.util.Collections;
 
 public class TvtPlayerHolder {
 

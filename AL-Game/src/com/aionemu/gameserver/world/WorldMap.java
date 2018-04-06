@@ -16,14 +16,13 @@
  */
 package com.aionemu.gameserver.world;
 
+import com.aionemu.gameserver.model.templates.world.WorldMapTemplate;
+import javolution.util.FastMap;
+
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-
-import javolution.util.FastMap;
-
-import com.aionemu.gameserver.model.templates.world.WorldMapTemplate;
 
 /**
  * This object is representing one in-game map and can have instances.

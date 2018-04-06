@@ -16,10 +16,6 @@
  */
 package com.aionemu.gameserver.network.aion.serverpackets;
 
-import java.util.Map.Entry;
-
-import org.apache.commons.lang.StringUtils;
-
 import com.aionemu.gameserver.model.NpcType;
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.Npc;
@@ -33,6 +29,9 @@ import com.aionemu.gameserver.model.templates.npc.NpcTemplate;
 import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
 import com.aionemu.gameserver.network.aion.AionConnection;
 import com.aionemu.gameserver.network.aion.AionServerPacket;
+import org.apache.commons.lang.StringUtils;
+
+import java.util.Map.Entry;
 
 /**
  * This packet is displaying visible npc/monsters.

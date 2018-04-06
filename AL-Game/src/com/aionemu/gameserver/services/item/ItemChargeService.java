@@ -16,9 +16,6 @@
  */
 package com.aionemu.gameserver.services.item;
 
-import java.util.Collection;
-import java.util.Collections;
-
 import com.aionemu.gameserver.model.DescriptionId;
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.Item;
@@ -33,6 +30,9 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Collections2;
+
+import java.util.Collection;
+import java.util.Collections;
 
 /**
  * @author ATracer

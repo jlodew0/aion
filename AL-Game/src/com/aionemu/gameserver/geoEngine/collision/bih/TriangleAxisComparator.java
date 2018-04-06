@@ -32,9 +32,9 @@
 
 package com.aionemu.gameserver.geoEngine.collision.bih;
 
-import java.util.Comparator;
-
 import com.aionemu.gameserver.geoEngine.math.Vector3f;
+
+import java.util.Comparator;
 
 public class TriangleAxisComparator implements Comparator<BIHTriangle> {
 

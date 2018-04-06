@@ -1,13 +1,13 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.util.Arrays;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.model.PlayerClass;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_TITLE_INFO;
 import com.aionemu.gameserver.services.abyss.AbyssPointsService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+
+import java.util.Arrays;
 
 public class CmdSet extends BaseCommand {
 	

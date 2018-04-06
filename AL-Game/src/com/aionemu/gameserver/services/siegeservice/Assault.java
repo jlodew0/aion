@@ -19,6 +19,7 @@ package com.aionemu.gameserver.services.siegeservice;
 import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
 import com.aionemu.gameserver.model.siege.SiegeLocation;
 import com.aionemu.gameserver.model.siege.SiegeRace;
+
 import java.util.concurrent.Future;
 
 /**

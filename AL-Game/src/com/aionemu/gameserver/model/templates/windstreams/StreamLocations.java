@@ -1,13 +1,12 @@
 package com.aionemu.gameserver.model.templates.windstreams;
 
-import java.util.List;
+import javolution.util.FastList;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
-
-import javolution.util.FastList;
+import java.util.List;
 
 /**
  * @author LokiReborn

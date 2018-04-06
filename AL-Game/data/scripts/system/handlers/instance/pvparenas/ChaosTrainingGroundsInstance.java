@@ -16,9 +16,6 @@
  */
 package instance.pvparenas;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.aionemu.commons.network.util.ThreadPoolManager;
 import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.instance.handlers.InstanceID;
@@ -34,8 +31,10 @@ import com.aionemu.gameserver.model.utils3d.Point3D;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.WorldMapInstance;
-
 import javolution.util.FastMap;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *

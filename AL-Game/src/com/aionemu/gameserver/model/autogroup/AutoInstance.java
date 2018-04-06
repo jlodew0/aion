@@ -16,9 +16,6 @@
  */
 package com.aionemu.gameserver.model.autogroup;
 
-import static org.hamcrest.Matchers.*;
-import static ch.lambdaj.Lambda.*;
-
 import com.aionemu.gameserver.configs.main.PvPConfig;
 import com.aionemu.gameserver.model.PlayerClass;
 import com.aionemu.gameserver.model.Race;
@@ -27,8 +24,12 @@ import com.aionemu.gameserver.model.instance.instancereward.InstanceReward;
 import com.aionemu.gameserver.model.team2.group.PlayerGroup;
 import com.aionemu.gameserver.model.team2.group.PlayerGroupService;
 import com.aionemu.gameserver.world.WorldMapInstance;
-import java.util.List;
 import javolution.util.FastList;
+
+import java.util.List;
+
+import static ch.lambdaj.Lambda.*;
+import static org.hamcrest.Matchers.equalTo;
 
 /**
  *

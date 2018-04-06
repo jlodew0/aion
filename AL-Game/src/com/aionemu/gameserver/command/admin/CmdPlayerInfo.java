@@ -1,9 +1,5 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.model.account.PlayerAccountData;
 import com.aionemu.gameserver.model.gameobjects.Item;
@@ -20,6 +16,10 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.Util;
 import com.aionemu.gameserver.world.World;
 import com.google.common.base.Predicate;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 /*syntax //playerinfo <playername> <loc | item | group | skill | legion | ap | chars>*/
 

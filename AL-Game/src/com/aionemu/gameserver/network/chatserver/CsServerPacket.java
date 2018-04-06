@@ -16,9 +16,9 @@
  */
 package com.aionemu.gameserver.network.chatserver;
 
-import java.nio.ByteBuffer;
-
 import com.aionemu.commons.network.packet.BaseServerPacket;
+
+import java.nio.ByteBuffer;
 
 /**
  * @author ATracer

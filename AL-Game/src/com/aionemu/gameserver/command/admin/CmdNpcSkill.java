@@ -1,13 +1,13 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.util.List;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.templates.npcskill.NpcSkillTemplate;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+
+import java.util.List;
 
 
 public class CmdNpcSkill extends BaseCommand {

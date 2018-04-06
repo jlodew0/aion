@@ -16,10 +16,7 @@
  */
 package ai.instance.esoterrace;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
+import ai.SummonerAI2;
 import com.aionemu.commons.network.util.ThreadPoolManager;
 import com.aionemu.gameserver.ai2.AI2Actions;
 import com.aionemu.gameserver.ai2.AIName;
@@ -31,7 +28,9 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.knownlist.Visitor;
 
-import ai.SummonerAI2;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * @author xTz

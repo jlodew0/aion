@@ -16,9 +16,6 @@
  */
 package com.aionemu.gameserver.network.loginserver.clientpackets;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.commons.utils.ExitCode;
 import com.aionemu.gameserver.network.NetworkController;
 import com.aionemu.gameserver.network.loginserver.LoginServer;
@@ -27,6 +24,8 @@ import com.aionemu.gameserver.network.loginserver.LsClientPacket;
 import com.aionemu.gameserver.network.loginserver.serverpackets.SM_ACCOUNT_LIST;
 import com.aionemu.gameserver.network.loginserver.serverpackets.SM_GS_AUTH;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * This packet is response for SM_GS_AUTH its notify Gameserver if registration was ok or what was wrong.

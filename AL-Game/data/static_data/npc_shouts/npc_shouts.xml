@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<npc_shouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<npc_shouts>
 	<shout_group client_ai="">
 		<shout_npcs npc_ids="210308 210309 210310 210311 210312 210314 210315 210603 210604 210605 210606 210607 210630 210697 210751 214568" restrict_world="210010000">
 			<shout string_id="340662" when="SEE"/>

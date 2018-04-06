@@ -16,11 +16,12 @@
  */
 package com.aionemu.gameserver.model.templates.spawns;
 
-import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.model.siege.SiegeModType;
 import com.aionemu.gameserver.model.siege.SiegeRace;
 import com.aionemu.gameserver.model.templates.spawns.siegespawns.SiegeSpawnTemplate;
 import com.aionemu.gameserver.spawnengine.SpawnHandlerType;
+import com.aionemu.commons.utils.Rnd;
+
 import java.util.ArrayList;
 import java.util.List;
 

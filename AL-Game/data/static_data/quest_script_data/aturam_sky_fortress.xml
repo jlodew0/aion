@@ -2,37 +2,62 @@
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
 	<!--
 		[BEGIN] SUMMARY
-			18300 [TODO] Floating Death
-			18301 [TODO] My Prec-H-ious
-			18302 [TODO] Grand Theft Flitter
-			18303 [TODO] Making a Sur-can't-a
+			18300 [SCRIPT] Floating Death
+			18301 [SCRIPT] My Prec-H-ious
+			18302 [SCRIPT] Grand Theft Flitter
+			18303 [SCRIPT] Making a Sur-can't-a
 			18304 [TODO] Hollowed and Sealed
 			18305 [TODO] Weapon Refined by Reian Tribe
 			18306 [TODO] Supplies in the Sky
-			18307 [TODO] Relics Reclaimed
+			18307 [XML] Relics Reclaimed
 			18308 [TODO] A Mark of Loyalty
-			18309 [TODO] Surkana Control to Daeva
-			18310 [TODO] Command Crash
+			18309 [XML] Surkana Control to Daeva
+			18310 [XML] Command Crash
 			18311 [TODO] Info Crystal
-			18312 [TODO] Surveillance Systems
-			18313 [TODO] Sponsored Mission
-			28300 [TODO] Floating Doom
-			28301 [TODO] Power On
-			28302 [TODO] Grand Theft Airship
-			28303 [TODO] Just an Island
+			18312 [XML] [Daily] Surveillance Systems
+			18313 [XML] Sponsored Mission
+			28300 [SCRIPT] Floating Doom
+			28301 [SCRIPT] Power On
+			28302 [SCRIPT] Grand Theft Airship
+			28303 [SCRIPT] Just an Island
 			28304 [TODO] Hollowed Be Thy Marble
 			28305 [TODO] Weapon Refined by Reian Tribe
 			28306 [TODO] Supplies in the Sky...Fortress
-			28307 [TODO] Reian Relics Reclaimed
+			28307 [XML] Reian Relics Reclaimed
 			28308 [TODO] A Matter of Loyalty 
-			28309 [TODO] Chains of Dredgion Slavery 
-			28310 [TODO] Surkana Interrupted
+			28309 [XML] Chains of Dredgion Slavery
+			28310 [XML] Surkana Interrupted
 			28311 [TODO] Info Sphere
-			28312 [TODO] Outrun a Resonator Network
-			28313 [TODO] A Wealthy Patron
+			28312 [XML] [Daily] Outrun a Resonator Network
+			28313 [XML] A Wealthy Patron
 		[END] SUMMARY
 	-->
 	<!-- REPORTING QUESTS -->
 	<!-- COLLECTING QUESTS -->
+	<item_collecting id="18307" start_npc_id="799596" action_item_id="700979"/>
+	<item_collecting id="28307" start_npc_id="799596" action_item_id="700979"/>
+	<item_collecting id="28312" start_npc_id="799531" end_npc_id="799531"/>
 	<!-- HUNTING QUESTS -->
+	<monster_hunt id="18309" start_npc_ids="799596">
+		<monster var="0" npc_id="282277 282278 282279 282280 282281" end_var="5"/>
+	</monster_hunt>
+	<monster_hunt id="18310" start_npc_id="799530" end_npc_id="799531">
+		<monster var="0" npc_id="217382" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="18313" start_npc_id="799531">
+		<monster var="0" npc_id="217371" end_var="1"/>
+		<monster var="1" npc_id="217373" end_var="1"/>
+		<monster var="2" npc_id="217376 219183" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="28309" start_npc_id="799596">
+		<monster var="0" npc_id="282277 282278 282279 282280 282281" end_var="5"/>
+	</monster_hunt>
+	<monster_hunt id="28310" start_npc_id="799530" end_npc_id="799531">
+		<monster var="0" npc_id="217382" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="28313" start_npc_id="799531">
+		<monster var="0" npc_id="217371" end_var="1"/>
+		<monster var="1" npc_id="217373" end_var="1"/>
+		<monster var="2" npc_id="217376 219183" end_var="1"/>
+	</monster_hunt>
 </quest_scripts>

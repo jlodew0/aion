@@ -16,13 +16,11 @@
  */
 package com.aionemu.gameserver.configs.main;
 
-import java.util.regex.Pattern;
-
+import com.aionemu.commons.configuration.Property;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.slf4j.Logger;
-
-import com.aionemu.commons.configuration.Property;
+import java.util.regex.Pattern;
 
 /**
  * @author Simple

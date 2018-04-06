@@ -16,11 +16,11 @@
  */
 package com.aionemu.gameserver.skillengine.task;
 
-import java.util.concurrent.Future;
-
 import com.aionemu.gameserver.model.gameobjects.VisibleObject;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
+
+import java.util.concurrent.Future;
 
 /**
  * @author ATracer

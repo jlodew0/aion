@@ -32,14 +32,10 @@
 
 package com.aionemu.gameserver.geoEngine.scene;
 
-import java.nio.Buffer;
-import java.nio.ByteBuffer;
-import java.nio.FloatBuffer;
-import java.nio.IntBuffer;
-import java.nio.ShortBuffer;
-
 import com.aionemu.gameserver.geoEngine.math.FastMath;
 import com.aionemu.gameserver.geoEngine.utils.BufferUtils;
+
+import java.nio.*;
 
 public class VertexBuffer extends GLObject implements Cloneable {
 

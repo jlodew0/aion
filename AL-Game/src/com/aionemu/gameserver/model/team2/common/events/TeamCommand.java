@@ -16,9 +16,8 @@
  */
 package com.aionemu.gameserver.model.team2.common.events;
 
-import gnu.trove.map.hash.TIntObjectHashMap;
-
 import com.google.common.base.Preconditions;
+import gnu.trove.map.hash.TIntObjectHashMap;
 
 /**
  * @author ATracer

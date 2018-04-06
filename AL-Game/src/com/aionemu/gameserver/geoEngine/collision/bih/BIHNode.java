@@ -32,11 +32,6 @@
 
 package com.aionemu.gameserver.geoEngine.collision.bih;
 
-import static java.lang.Math.max;
-import static java.lang.Math.min;
-
-import javolution.util.FastList;
-
 import com.aionemu.gameserver.geoEngine.bounding.BoundingBox;
 import com.aionemu.gameserver.geoEngine.collision.Collidable;
 import com.aionemu.gameserver.geoEngine.collision.CollisionResult;
@@ -45,6 +40,10 @@ import com.aionemu.gameserver.geoEngine.math.Matrix4f;
 import com.aionemu.gameserver.geoEngine.math.Ray;
 import com.aionemu.gameserver.geoEngine.math.Triangle;
 import com.aionemu.gameserver.geoEngine.math.Vector3f;
+import javolution.util.FastList;
+
+import static java.lang.Math.max;
+import static java.lang.Math.min;
 
 /**
  * Bounding Interval Hierarchy.

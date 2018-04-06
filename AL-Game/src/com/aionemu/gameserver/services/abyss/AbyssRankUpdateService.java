@@ -16,8 +16,6 @@
  */
 package com.aionemu.gameserver.services.abyss;
 
-import com.aionemu.commons.database.dao.DAOManager;
-import com.aionemu.commons.services.CronService;
 import com.aionemu.gameserver.configs.main.RankingConfig;
 import com.aionemu.gameserver.dao.AbyssRankDAO;
 import com.aionemu.gameserver.dao.ServerVariablesDAO;
@@ -27,6 +25,8 @@ import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.utils.stats.AbyssRankEnum;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.knownlist.Visitor;
+import com.aionemu.commons.database.dao.DAOManager;
+import com.aionemu.commons.services.CronService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

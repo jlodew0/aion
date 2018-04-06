@@ -16,14 +16,13 @@
  */
 package com.aionemu.gameserver.network.aion.serverpackets;
 
-import java.util.ArrayList;
-import java.util.Map;
-
-import javolution.util.FastMap;
-
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.network.aion.AionConnection;
 import com.aionemu.gameserver.network.aion.AionServerPacket;
+import javolution.util.FastMap;
+
+import java.util.ArrayList;
+import java.util.Map;
 
 /**
  * @author ATracer, nrg

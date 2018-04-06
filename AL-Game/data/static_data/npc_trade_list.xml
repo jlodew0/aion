@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<npc_trade_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="npc_trade_list.xsd">
+<npc_trade_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="npc_trade_list.xsd">
 	<!-- Ajouts Aion Phenix -->
 	<tradelist_template npc_id="216527" name="lupukin">
         <tradelist id="837"/>

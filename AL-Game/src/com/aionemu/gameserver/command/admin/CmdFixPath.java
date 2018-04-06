@@ -16,9 +16,6 @@
  */
 package com.aionemu.gameserver.command.admin;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 import com.aionemu.commons.network.util.ThreadPoolManager;
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.dataholders.DataManager;
@@ -28,6 +25,9 @@ import com.aionemu.gameserver.model.templates.walker.RouteStep;
 import com.aionemu.gameserver.model.templates.walker.WalkerTemplate;
 import com.aionemu.gameserver.services.teleport.TeleportService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 
 

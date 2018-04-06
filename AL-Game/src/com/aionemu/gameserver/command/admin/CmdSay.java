@@ -1,7 +1,5 @@
 package com.aionemu.gameserver.command.admin;
 
-import org.apache.commons.lang.StringUtils;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.model.ChatType;
 import com.aionemu.gameserver.model.gameobjects.Npc;
@@ -9,6 +7,7 @@ import com.aionemu.gameserver.model.gameobjects.VisibleObject;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_MESSAGE;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+import org.apache.commons.lang.StringUtils;
 
 public class CmdSay extends BaseCommand {
 	

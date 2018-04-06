@@ -16,8 +16,7 @@
  */
 package com.aionemu.gameserver.controllers.observer;
 
-import java.util.List;
-
+import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.controllers.attack.AttackResult;
 import com.aionemu.gameserver.controllers.attack.AttackStatus;
 import com.aionemu.gameserver.model.gameobjects.Creature;
@@ -29,7 +28,8 @@ import com.aionemu.gameserver.skillengine.model.Effect;
 import com.aionemu.gameserver.skillengine.model.HitType;
 import com.aionemu.gameserver.utils.MathUtil;
 import com.aionemu.gameserver.utils.PacketSendUtility;
-import com.aionemu.commons.utils.Rnd;
+
+import java.util.List;
 
 /**
  * @author ATracer modified by Sippolo, kecimis

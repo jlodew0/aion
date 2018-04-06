@@ -16,8 +16,6 @@
  */
 package quest.aturam_sky_fortress;
 
-import java.util.Collections;
-
 import com.aionemu.gameserver.model.DialogAction;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -28,6 +26,8 @@ import com.aionemu.gameserver.questEngine.model.QuestState;
 import com.aionemu.gameserver.questEngine.model.QuestStatus;
 import com.aionemu.gameserver.services.QuestService;
 import com.aionemu.gameserver.services.item.ItemService;
+
+import java.util.Collections;
 
 /**
  * @author zhkchi

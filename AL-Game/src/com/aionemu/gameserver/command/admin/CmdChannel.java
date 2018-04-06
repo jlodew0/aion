@@ -1,11 +1,11 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.lang.reflect.Field;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+
+import java.lang.reflect.Field;
 
 /**
  * @author SheppeR

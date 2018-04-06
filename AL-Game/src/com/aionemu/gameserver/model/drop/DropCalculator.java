@@ -16,9 +16,9 @@
  */
 package com.aionemu.gameserver.model.drop;
 
-import java.util.Set;
-
 import com.aionemu.gameserver.model.Race;
+
+import java.util.Set;
 
 
 /**

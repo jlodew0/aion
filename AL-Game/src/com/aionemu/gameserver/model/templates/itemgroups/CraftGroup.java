@@ -16,16 +16,14 @@
  */
 package com.aionemu.gameserver.model.templates.itemgroups;
 
+import com.aionemu.gameserver.model.templates.rewards.CraftReward;
+import com.aionemu.gameserver.model.templates.rewards.IdReward;
+import javolution.util.FastMap;
+import org.apache.commons.lang.math.IntRange;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map.Entry;
-
-import javolution.util.FastMap;
-
-import org.apache.commons.lang.math.IntRange;
-
-import com.aionemu.gameserver.model.templates.rewards.CraftReward;
-import com.aionemu.gameserver.model.templates.rewards.IdReward;
 
 /**
  * @author Rolandas

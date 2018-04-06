@@ -1,11 +1,10 @@
 package ai.instance.abyssal_splinter;
 
+import ai.ActionItemNpcAI2;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.services.teleport.TeleportService;
-
-import ai.ActionItemNpcAI2;
 
 @AIName("teleportation_device")
 public class AbyssalSplinterPortalAI2 extends ActionItemNpcAI2

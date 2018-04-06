@@ -17,6 +17,7 @@
 package com.aionemu.gameserver.ai2;
 
 import com.aionemu.gameserver.ai2.event.AIEventType;
+
 import java.util.Arrays;
 import java.util.EnumSet;
 

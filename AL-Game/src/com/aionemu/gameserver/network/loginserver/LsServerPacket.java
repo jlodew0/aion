@@ -16,9 +16,9 @@
  */
 package com.aionemu.gameserver.network.loginserver;
 
-import java.nio.ByteBuffer;
-
 import com.aionemu.commons.network.packet.BaseServerPacket;
+
+import java.nio.ByteBuffer;
 
 /**
  * Base class for every GameServer -> Login Server Packet.

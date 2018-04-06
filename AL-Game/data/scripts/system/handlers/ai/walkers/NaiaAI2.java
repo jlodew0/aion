@@ -16,8 +16,7 @@
  */
 package ai.walkers;
 
-import java.util.List;
-
+import ai.GeneralNpcAI2;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.ai2.handler.MoveEventHandler;
 import com.aionemu.gameserver.dataholders.DataManager;
@@ -27,7 +26,7 @@ import com.aionemu.gameserver.model.templates.npcshout.ShoutEventType;
 import com.aionemu.gameserver.services.NpcShoutsService;
 import com.aionemu.gameserver.utils.MathUtil;
 
-import ai.GeneralNpcAI2;
+import java.util.List;
 
 /**
  * @author Rolandas

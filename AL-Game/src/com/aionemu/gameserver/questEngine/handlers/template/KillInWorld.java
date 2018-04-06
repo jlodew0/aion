@@ -16,14 +16,13 @@
  */
 package com.aionemu.gameserver.questEngine.handlers.template;
 
-import gnu.trove.list.array.TIntArrayList;
-
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.questEngine.handlers.QuestHandler;
 import com.aionemu.gameserver.questEngine.model.QuestDialog;
 import com.aionemu.gameserver.questEngine.model.QuestEnv;
 import com.aionemu.gameserver.questEngine.model.QuestState;
 import com.aionemu.gameserver.questEngine.model.QuestStatus;
+import gnu.trove.list.array.TIntArrayList;
 
 /**
  * Standard xml-based handling for the DAILY quests with onKillInZone events

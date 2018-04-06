@@ -16,15 +16,13 @@
  */
 package com.aionemu.gameserver.model.team.legion;
 
-import java.sql.Timestamp;
-
-import org.slf4j.LoggerFactory;
-
-import org.slf4j.Logger;
-
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.PlayerClass;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.sql.Timestamp;
 
 /**
  * @author Simple

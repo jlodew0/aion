@@ -16,20 +16,16 @@
  */
 package com.aionemu.gameserver.dataholders;
 
+import com.aionemu.gameserver.model.templates.itemgroups.*;
+import com.aionemu.gameserver.model.templates.rewards.*;
+import javolution.util.FastMap;
+import org.apache.commons.lang.math.IntRange;
+import javax.xml.bind.Unmarshaller;
+import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
-
-import javax.xml.bind.Unmarshaller;
-import javax.xml.bind.annotation.*;
-
-import org.apache.commons.lang.math.IntRange;
-
-import javolution.util.FastMap;
-
-import com.aionemu.gameserver.model.templates.itemgroups.*;
-import com.aionemu.gameserver.model.templates.rewards.*;
 
 /**
  * @author Rolandas

@@ -17,9 +17,9 @@
 
 package com.aionemu.gameserver.model.geometry;
 
-import java.io.Serializable;
-
 import com.aionemu.gameserver.model.templates.zone.Point2D;
+
+import java.io.Serializable;
 
 /**
  * This class represents 3D point.<br>

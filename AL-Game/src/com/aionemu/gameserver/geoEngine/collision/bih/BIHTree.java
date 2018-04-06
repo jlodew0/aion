@@ -33,10 +33,6 @@
 package com.aionemu.gameserver.geoEngine.collision.bih;
 
 
-import static java.lang.Math.max;
-
-import java.nio.FloatBuffer;
-
 import com.aionemu.gameserver.geoEngine.bounding.BoundingBox;
 import com.aionemu.gameserver.geoEngine.bounding.BoundingVolume;
 import com.aionemu.gameserver.geoEngine.collision.Collidable;
@@ -50,6 +46,10 @@ import com.aionemu.gameserver.geoEngine.scene.CollisionData;
 import com.aionemu.gameserver.geoEngine.scene.Mesh;
 import com.aionemu.gameserver.geoEngine.scene.VertexBuffer.Type;
 import com.aionemu.gameserver.geoEngine.scene.mesh.IndexBuffer;
+
+import java.nio.FloatBuffer;
+
+import static java.lang.Math.max;
 
 public class BIHTree implements CollisionData {
 

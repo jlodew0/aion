@@ -38,4 +38,7 @@
 	<lib name="al-commons-4.3.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/al-commons-4.3.jar!/"/>
 	</lib>
+	<levels>
+		<level name="al-commons" value="project"/>
+	</levels>
 </component>

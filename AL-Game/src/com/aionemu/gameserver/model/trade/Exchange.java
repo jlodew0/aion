@@ -16,14 +16,13 @@
  */
 package com.aionemu.gameserver.model.trade;
 
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import javolution.util.FastList;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import javolution.util.FastList;
-
-import com.aionemu.gameserver.model.gameobjects.Item;
-import com.aionemu.gameserver.model.gameobjects.player.Player;
 
 /**
  * @author ATracer

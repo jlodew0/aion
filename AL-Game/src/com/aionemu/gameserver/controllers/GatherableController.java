@@ -16,9 +16,6 @@
  */
 package com.aionemu.gameserver.controllers;
 
-import java.util.List;
-
-import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.configs.main.GSConfig;
 import com.aionemu.gameserver.controllers.observer.StartMovingListener;
 import com.aionemu.gameserver.dataholders.DataManager;
@@ -37,6 +34,9 @@ import com.aionemu.gameserver.utils.MathUtil;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.captcha.CAPTCHAUtil;
 import com.aionemu.gameserver.world.World;
+import com.aionemu.commons.utils.Rnd;
+
+import java.util.List;
 
 /**
  * @author ATracer, sphinx, Cura

@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ae-commons" />
         <module name="al-game" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ae-commons" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

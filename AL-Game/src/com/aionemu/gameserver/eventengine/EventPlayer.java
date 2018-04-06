@@ -1,11 +1,10 @@
 package com.aionemu.gameserver.eventengine;
 
-import java.util.ArrayList;
-
+import com.aionemu.gameserver.model.gameobjects.player.Player;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aionemu.gameserver.model.gameobjects.player.Player;
+import java.util.ArrayList;
 
 public class EventPlayer {
 	public final int world;

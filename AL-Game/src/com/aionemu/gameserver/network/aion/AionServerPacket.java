@@ -16,10 +16,10 @@
  */
 package com.aionemu.gameserver.network.aion;
 
-import java.nio.ByteBuffer;
-
-import com.aionemu.commons.network.packet.BaseServerPacket;
 import com.aionemu.gameserver.network.Crypt;
+import com.aionemu.commons.network.packet.BaseServerPacket;
+
+import java.nio.ByteBuffer;
 
 /**
  * Base class for every GS -> Aion Server Packet.

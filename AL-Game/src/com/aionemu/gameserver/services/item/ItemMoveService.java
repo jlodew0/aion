@@ -16,11 +16,6 @@
  */
 package com.aionemu.gameserver.services.item;
 
-import static com.aionemu.gameserver.services.item.ItemPacketService.sendItemDeletePacket;
-import static com.aionemu.gameserver.services.item.ItemPacketService.sendStorageUpdatePacket;
-
-import java.util.List;
-
 import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.PersistentState;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -29,6 +24,11 @@ import com.aionemu.gameserver.model.items.storage.StorageType;
 import com.aionemu.gameserver.services.ExchangeService;
 import com.aionemu.gameserver.services.LegionService;
 import com.aionemu.gameserver.services.item.ItemPacketService.ItemDeleteType;
+
+import java.util.List;
+
+import static com.aionemu.gameserver.services.item.ItemPacketService.sendItemDeletePacket;
+import static com.aionemu.gameserver.services.item.ItemPacketService.sendStorageUpdatePacket;
 
 /**
  * @author ATracer

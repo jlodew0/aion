@@ -16,10 +16,6 @@
  */
 package com.aionemu.gameserver.model.stats.listeners;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-
 import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.items.ItemSlot;
@@ -36,6 +32,10 @@ import com.aionemu.gameserver.model.templates.itemset.FullBonus;
 import com.aionemu.gameserver.model.templates.itemset.ItemSetTemplate;
 import com.aionemu.gameserver.model.templates.itemset.PartBonus;
 import com.aionemu.gameserver.services.EnchantService;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 
 /**
  * @author xavier modified by Wakizashi

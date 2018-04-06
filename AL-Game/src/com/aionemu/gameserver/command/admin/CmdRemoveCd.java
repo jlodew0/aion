@@ -1,9 +1,5 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map.Entry;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.model.gameobjects.VisibleObject;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -11,6 +7,10 @@ import com.aionemu.gameserver.model.items.ItemCooldown;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_ITEM_COOLDOWN;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_SKILL_COOLDOWN;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map.Entry;
 
 
 /*syntax: //removecd instance <all|worldId> */

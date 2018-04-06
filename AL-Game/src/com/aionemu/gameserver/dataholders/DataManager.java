@@ -16,11 +16,10 @@
  */
 package com.aionemu.gameserver.dataholders;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.gameserver.dataholders.loadingutils.XmlDataLoader;
 import com.aionemu.gameserver.utils.Util;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * This class is holding whole static data, that is loaded from /data/static_data directory.<br>

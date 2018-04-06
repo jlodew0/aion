@@ -16,13 +16,13 @@
  */
 package com.aionemu.gameserver.network.aion;
 
-import java.util.Collection;
-
 import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.Letter;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.templates.item.ItemTemplate;
 import com.aionemu.gameserver.network.aion.iteminfo.ItemInfoBlob;
+
+import java.util.Collection;
 
 /**
  * @author kosyachok

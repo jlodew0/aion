@@ -16,13 +16,6 @@
  */
 package instance.pvparenas;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import static ch.lambdaj.Lambda.on;
-import static ch.lambdaj.Lambda.sort;
-
 import com.aionemu.gameserver.configs.network.NetworkConfig;
 import com.aionemu.gameserver.instance.handlers.InstanceID;
 import com.aionemu.gameserver.model.gameobjects.Item;
@@ -31,6 +24,13 @@ import com.aionemu.gameserver.model.instance.InstanceScoreType;
 import com.aionemu.gameserver.model.instance.playerreward.InstancePlayerReward;
 import com.aionemu.gameserver.model.instance.playerreward.PvPArenaPlayerReward;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import static ch.lambdaj.Lambda.on;
+import static ch.lambdaj.Lambda.sort;
 
 /**
  *

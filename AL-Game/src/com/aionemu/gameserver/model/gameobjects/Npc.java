@@ -16,10 +16,6 @@
  */
 package com.aionemu.gameserver.model.gameobjects;
 
-import java.util.Iterator;
-
-import org.apache.commons.lang.StringUtils;
-
 import com.aionemu.gameserver.ai2.AI2Engine;
 import com.aionemu.gameserver.configs.main.AIConfig;
 import com.aionemu.gameserver.controllers.NpcController;
@@ -51,6 +47,9 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.world.WorldPosition;
 import com.aionemu.gameserver.world.WorldType;
 import com.google.common.base.Preconditions;
+import org.apache.commons.lang.StringUtils;
+
+import java.util.Iterator;
 
 /**
  * This class is a base class for all in-game NPCs, what includes: monsters and npcs that player can talk to (aka

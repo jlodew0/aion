@@ -16,16 +16,14 @@
  */
 package com.aionemu.gameserver.network.aion.serverpackets;
 
-import java.util.Set;
-
-import javolution.util.FastList;
-
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.gameserver.model.drop.DropItem;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.network.aion.AionConnection;
 import com.aionemu.gameserver.network.aion.AionServerPacket;
+import javolution.util.FastList;
+import org.slf4j.LoggerFactory;
+
+import java.util.Set;
 
 /**
  * @author alexa026, Avol, Corrected by Metos modified by ATracer, KID

@@ -17,18 +17,12 @@
 
 package com.aionemu.gameserver.model.templates.Guides;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlTransient;
-import javax.xml.bind.annotation.XmlType;
-
 import com.aionemu.gameserver.model.PlayerClass;
 import com.aionemu.gameserver.model.Race;
-
-import java.util.List;
-import javax.xml.bind.annotation.XmlElement;
 import org.apache.commons.lang.StringUtils;
+
+import javax.xml.bind.annotation.*;
+import java.util.List;
 /**
  * @author xTz
  */

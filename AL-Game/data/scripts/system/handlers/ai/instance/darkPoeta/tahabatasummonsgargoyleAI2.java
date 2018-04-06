@@ -16,13 +16,12 @@
  */
 package ai.instance.darkPoeta;
 
-import java.util.concurrent.Future;
-
+import ai.GeneralNpcAI2;
 import com.aionemu.commons.network.util.ThreadPoolManager;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.skillengine.SkillEngine;
 
-import ai.GeneralNpcAI2;
+import java.util.concurrent.Future;
 
 /**
  *

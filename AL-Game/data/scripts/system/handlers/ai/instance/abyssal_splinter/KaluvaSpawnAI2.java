@@ -7,6 +7,7 @@ import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.ai2.NpcAI2;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.world.WorldPosition;
+
 import java.util.concurrent.Future;
 
 @AIName("kaluvaspawn")

@@ -1,10 +1,5 @@
 package com.aionemu.gameserver.cqfd.events.tools;
 
-import java.util.Collection;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.gameserver.cqfd.events.CQFDEvent;
 import com.aionemu.gameserver.cqfd.events.CQFDEventPlayer;
 import com.aionemu.gameserver.cqfd.events.CQFDEventTeam;
@@ -24,6 +19,10 @@ import com.aionemu.gameserver.services.player.PlayerReviveService;
 import com.aionemu.gameserver.services.teleport.TeleportService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.World;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.Collection;
 
 public class eventTools {
 

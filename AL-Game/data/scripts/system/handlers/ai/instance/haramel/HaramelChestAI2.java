@@ -16,9 +16,8 @@
  */
 package ai.instance.haramel;
 
-import com.aionemu.gameserver.ai2.AIName;
-
 import ai.ChestAI2;
+import com.aionemu.gameserver.ai2.AIName;
 
 /**
  * @author xTz

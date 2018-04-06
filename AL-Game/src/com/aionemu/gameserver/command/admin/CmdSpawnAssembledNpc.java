@@ -16,10 +16,6 @@
  */
 package com.aionemu.gameserver.command.admin;
 
-import java.util.Iterator;
-
-import javolution.util.FastList;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.assemblednpc.AssembledNpc;
@@ -30,6 +26,9 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_NPC_ASSEMBLER;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.idfactory.IDFactory;
 import com.aionemu.gameserver.world.World;
+import javolution.util.FastList;
+
+import java.util.Iterator;
 
 
 public class CmdSpawnAssembledNpc  extends BaseCommand {

@@ -18,6 +18,11 @@
  */
 package com.aionemu.gameserver.geoEngine;
 
+import com.aionemu.gameserver.geoEngine.math.Matrix3f;
+import com.aionemu.gameserver.geoEngine.math.Vector3f;
+import com.aionemu.gameserver.geoEngine.models.GeoMap;
+import com.aionemu.gameserver.geoEngine.scene.*;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -28,15 +33,6 @@ import java.nio.ShortBuffer;
 import java.nio.channels.FileChannel;
 import java.util.HashMap;
 import java.util.Map;
-
-import com.aionemu.gameserver.geoEngine.math.Matrix3f;
-import com.aionemu.gameserver.geoEngine.math.Vector3f;
-import com.aionemu.gameserver.geoEngine.models.GeoMap;
-import com.aionemu.gameserver.geoEngine.scene.Geometry;
-import com.aionemu.gameserver.geoEngine.scene.Mesh;
-import com.aionemu.gameserver.geoEngine.scene.Node;
-import com.aionemu.gameserver.geoEngine.scene.Spatial;
-import com.aionemu.gameserver.geoEngine.scene.VertexBuffer;
 
 
 /**

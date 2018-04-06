@@ -16,11 +16,6 @@
  */
 package com.aionemu.gameserver.services.instance;
 
-import com.aionemu.commons.network.util.ThreadPoolManager;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.aionemu.commons.services.CronService;
 import com.aionemu.gameserver.configs.main.DredgionConfig;
 import com.aionemu.gameserver.model.autogroup.AutoGroupsType;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -29,8 +24,13 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.services.AutoGroupService2;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.World;
-import java.util.Iterator;
+import com.aionemu.commons.network.util.ThreadPoolManager;
+import com.aionemu.commons.services.CronService;
 import javolution.util.FastList;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.Iterator;
 
 /**
  *

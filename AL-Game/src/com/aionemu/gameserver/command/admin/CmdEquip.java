@@ -1,7 +1,5 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.lang.reflect.Field;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.gameobjects.Item;
@@ -19,6 +17,8 @@ import com.aionemu.gameserver.services.item.ItemSocketService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.Util;
 import com.aionemu.gameserver.world.World;
+
+import java.lang.reflect.Field;
 
 
 public class CmdEquip extends BaseCommand {

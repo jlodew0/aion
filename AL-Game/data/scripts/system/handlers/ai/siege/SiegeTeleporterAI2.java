@@ -16,6 +16,7 @@
  */
 package ai.siege;
 
+import ai.GeneralNpcAI2;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
@@ -23,8 +24,6 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_FORTRESS_INFO;
 import com.aionemu.gameserver.services.SiegeService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.World;
-
-import ai.GeneralNpcAI2;
 
 /**
  * @author Source

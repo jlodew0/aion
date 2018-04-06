@@ -1,11 +1,11 @@
 package com.aionemu.gameserver.cqfd.events.task.impl;
 
-import java.util.Collection;
-
 import com.aionemu.gameserver.cqfd.events.CQFDEvent;
 import com.aionemu.gameserver.cqfd.events.CQFDEventTeam;
 import com.aionemu.gameserver.cqfd.events.task.CQFDEventTask;
 import com.aionemu.gameserver.cqfd.events.tools.eventTools;
+
+import java.util.Collection;
 
 public class CQFDEventAnnounce extends CQFDEventTask{
 		private Collection<CQFDEventTeam> _teams;

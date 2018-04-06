@@ -34,12 +34,13 @@ import com.aionemu.gameserver.services.SiegeService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.idfactory.IDFactory;
 import com.aionemu.gameserver.world.World;
-import java.util.Iterator;
-import java.util.Map;
 import javolution.util.FastList;
 import javolution.util.FastMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.Iterator;
+import java.util.Map;
 
 /**
  * @author synchro2 @reworked Luzien TODO: Send Peace Dredgion without assault

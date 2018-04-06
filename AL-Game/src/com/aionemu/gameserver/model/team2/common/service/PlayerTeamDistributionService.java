@@ -16,9 +16,6 @@
  */
 package com.aionemu.gameserver.model.team2.common.service;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.configs.main.GroupConfig;
 import com.aionemu.gameserver.model.gameobjects.Npc;
@@ -34,6 +31,9 @@ import com.aionemu.gameserver.services.drop.DropRegistrationService;
 import com.aionemu.gameserver.utils.MathUtil;
 import com.aionemu.gameserver.utils.stats.StatFunctions;
 import com.google.common.base.Predicate;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author ATracer

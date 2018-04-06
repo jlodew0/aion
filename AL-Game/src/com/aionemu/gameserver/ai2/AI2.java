@@ -16,13 +16,13 @@
  */
 package com.aionemu.gameserver.ai2;
 
-import java.util.List;
-
 import com.aionemu.gameserver.ai2.event.AIEventType;
 import com.aionemu.gameserver.ai2.poll.AIAnswer;
 import com.aionemu.gameserver.ai2.poll.AIQuestion;
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
+
+import java.util.List;
 
 /**
  * @author ATracer

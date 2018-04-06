@@ -1,7 +1,6 @@
 package ai.instance.dredgion;
 
-import java.util.List;
-
+import ai.ActionItemNpcAI2;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -9,7 +8,7 @@ import com.aionemu.gameserver.model.templates.portal.ExitPoint;
 import com.aionemu.gameserver.model.templates.portal.PortalTemplate;
 import com.aionemu.gameserver.services.teleport.TeleportService;
 
-import ai.ActionItemNpcAI2;
+import java.util.List;
 
 @AIName("dredgion_teleportation_device")
 public class DredgionTeleporter extends ActionItemNpcAI2 {

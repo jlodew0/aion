@@ -1,8 +1,5 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.model.EmotionType;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -13,6 +10,9 @@ import com.aionemu.gameserver.model.stats.calc.functions.StatFunction;
 import com.aionemu.gameserver.model.stats.container.StatEnum;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_EMOTION;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+
+import java.util.ArrayList;
+import java.util.List;
 
 //.speed <valeur>
 

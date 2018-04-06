@@ -1,9 +1,5 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.util.List;
-
-import javolution.util.FastList;
-
 import com.aionemu.commons.database.dao.DAOManager;
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.dao.PlayerDAO;
@@ -15,8 +11,10 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_LEGION_UPDATE_MEMBER
 import com.aionemu.gameserver.services.LegionService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.Util;
-
 import com.aionemu.gameserver.world.World;
+import javolution.util.FastList;
+
+import java.util.List;
 
 
 public class CmdLegionCommand extends BaseCommand {

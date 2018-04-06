@@ -16,8 +16,6 @@
  */
 package com.aionemu.gameserver.model.team2;
 
-import java.util.Collection;
-
 import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.team2.group.PlayerFilters;
@@ -25,6 +23,8 @@ import com.aionemu.gameserver.network.aion.AionServerPacket;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
+
+import java.util.Collection;
 
 /**
  * @author ATracer

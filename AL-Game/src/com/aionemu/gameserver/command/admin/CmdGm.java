@@ -1,14 +1,14 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-
-import com.aionemu.commons.database.DatabaseFactory;
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.model.gameobjects.player.GmConfig;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.gameobjects.player.PlayerCommonData;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.commons.database.DatabaseFactory;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 
 public class CmdGm extends BaseCommand {
 	

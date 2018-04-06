@@ -16,14 +16,13 @@
  */
 package com.aionemu.gameserver.network.chatserver;
 
-import java.nio.ByteBuffer;
-import java.util.HashMap;
-import java.util.Map;
-
+import com.aionemu.gameserver.network.chatserver.ChatServerConnection.State;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aionemu.gameserver.network.chatserver.ChatServerConnection.State;
+import java.nio.ByteBuffer;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author ATracer

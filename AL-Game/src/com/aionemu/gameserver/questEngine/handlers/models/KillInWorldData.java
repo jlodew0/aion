@@ -16,21 +16,15 @@
  */
 package com.aionemu.gameserver.questEngine.handlers.models;
 
-import gnu.trove.list.array.TIntArrayList;
-
-import java.util.Iterator;
-import java.util.List;
-
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlType;
-
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.templates.world.WorldMapTemplate;
 import com.aionemu.gameserver.questEngine.QuestEngine;
 import com.aionemu.gameserver.questEngine.handlers.template.KillInWorld;
+import gnu.trove.list.array.TIntArrayList;
+
+import javax.xml.bind.annotation.*;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

@@ -16,16 +16,15 @@
  */
 package com.aionemu.gameserver.restrictions;
 
-import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.Comparator;
-
-import org.apache.commons.lang.ArrayUtils;
-
 import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.VisibleObject;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.skillengine.model.Skill;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.lang.reflect.Method;
+import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * @author lord_rex This class is a Manager for restrictions. This is a very useful system, you can use that for: game

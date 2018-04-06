@@ -16,11 +16,11 @@
  */
 package com.aionemu.gameserver.controllers.observer;
 
-import java.util.List;
-
 import com.aionemu.gameserver.controllers.attack.AttackResult;
 import com.aionemu.gameserver.controllers.attack.AttackStatus;
 import com.aionemu.gameserver.model.gameobjects.Creature;
+
+import java.util.List;
 
 /**
  * @author ATracer

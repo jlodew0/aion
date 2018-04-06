@@ -16,17 +16,15 @@
  */
 package mysql5;
 
+import com.aionemu.commons.database.DatabaseFactory;
+import com.aionemu.gameserver.dao.PlayerPasskeyDAO;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
-import org.slf4j.LoggerFactory;
-
-import org.slf4j.Logger;
-
-import com.aionemu.commons.database.DatabaseFactory;
-import com.aionemu.gameserver.dao.PlayerPasskeyDAO;
 
 /**
  * @author cura

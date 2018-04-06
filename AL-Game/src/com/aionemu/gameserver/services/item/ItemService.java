@@ -22,11 +22,11 @@ import com.aionemu.gameserver.utils.idfactory.IDFactory;
 import com.google.common.base.Preconditions;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Collections2;
-import java.util.Collection;
-import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Collection;
+import java.util.List;
 /**
  * @author KID
  */
@@ -103,8 +103,7 @@ public class ItemService {
 	/**
 	 * Add non-stackable item to inventory
 	 */
-	private static long addNonStackableItem(Player player, ItemTemplate itemTemplate, long count, Item sourceItem,
-		Predicate<Item> predicate) {
+	private static long addNonStackableItem(Player player, ItemTemplate itemTemplate, long count, Item sourceItem, Predicate<Item> predicate) {
 		Storage inventory = player.getInventory();
 		while (!inventory.isFull() && count > 0) {
 			Item newItem = ItemFactory.newItem(itemTemplate.getTemplateId());
@@ -167,6 +166,7 @@ public class ItemService {
 				count = equipement.increaseEquippedItemCount(item, count);
 			}
 		}
+
 
 		while (!inventory.isFull() && count > 0) {
 			Item newItem = ItemFactory.newItem(itemTemplate.getTemplateId(), count);

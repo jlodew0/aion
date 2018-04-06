@@ -1,15 +1,14 @@
 package ai.instance.darkPoeta;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
+import ai.AggressiveNpcAI2;
 import com.aionemu.commons.network.util.ThreadPoolManager;
 import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 
-import ai.AggressiveNpcAI2;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * @author Medzo and seita

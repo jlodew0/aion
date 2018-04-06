@@ -16,8 +16,7 @@
  */
 package ai.instance.steelRake;
 
-import java.util.List;
-
+import ai.ActionItemNpcAI2;
 import com.aionemu.gameserver.ai2.AI2Actions;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.model.gameobjects.Npc;
@@ -27,7 +26,7 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.WorldMapInstance;
 import com.aionemu.gameserver.world.WorldPosition;
 
-import ai.ActionItemNpcAI2;
+import java.util.List;
 
 /**
  * @author xTz

@@ -1,8 +1,5 @@
 package com.aionemu.gameserver.command.player;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_SERIAL_KILLER;
@@ -10,6 +7,9 @@ import com.aionemu.gameserver.services.serialkillers.SerialKiller;
 import com.aionemu.gameserver.services.serialkillers.SerialKillerDebuff;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.World;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class CmdMale extends BaseCommand {
 

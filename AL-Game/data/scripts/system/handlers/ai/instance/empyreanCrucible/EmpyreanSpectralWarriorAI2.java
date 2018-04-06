@@ -16,10 +16,9 @@
  */
 package ai.instance.empyreanCrucible;
 
+import ai.AggressiveNpcAI2;
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.instance.StageType;
-
-import ai.AggressiveNpcAI2;
 
 /**
  *

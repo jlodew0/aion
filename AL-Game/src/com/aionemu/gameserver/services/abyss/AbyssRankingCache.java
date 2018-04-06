@@ -18,15 +18,6 @@ package com.aionemu.gameserver.services.abyss;
 
 
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import javolution.util.FastMap;
-
-import com.aionemu.commons.database.dao.DAOManager;
 import com.aionemu.gameserver.dao.AbyssRankDAO;
 import com.aionemu.gameserver.model.AbyssRankingResult;
 import com.aionemu.gameserver.model.Race;
@@ -35,6 +26,13 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_ABYSS_RANKING_LEGION
 import com.aionemu.gameserver.network.aion.serverpackets.SM_ABYSS_RANKING_PLAYERS;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.knownlist.Visitor;
+import com.aionemu.commons.database.dao.DAOManager;
+import javolution.util.FastMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

@@ -1,17 +1,16 @@
 package com.aionemu.gameserver.cqfd.events.task.impl;
 
-import java.util.ArrayList;
-import java.util.concurrent.ScheduledFuture;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.gameserver.cqfd.events.CQFDEvent;
 import com.aionemu.gameserver.cqfd.events.CQFDEventStat;
 import com.aionemu.gameserver.cqfd.events.task.CQFDEventTask;
 import com.aionemu.gameserver.cqfd.events.task.CQFDEventTaskType;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.ArrayList;
+import java.util.concurrent.ScheduledFuture;
 
 public class CQFDEventTaskRegister extends CQFDEventTask{
 

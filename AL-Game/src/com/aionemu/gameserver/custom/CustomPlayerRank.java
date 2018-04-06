@@ -1,9 +1,5 @@
 package com.aionemu.gameserver.custom;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Set;
-
 import com.aionemu.gameserver.controllers.attack.AggroInfo;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.gameobjects.Creature;
@@ -13,6 +9,10 @@ import com.aionemu.gameserver.model.templates.item.ItemTemplate;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_LEVEL_UPDATE;
 import com.aionemu.gameserver.services.item.ItemService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Set;
 
 public class CustomPlayerRank {
 	public static final int NB_PTS_BY_RANK = 100;

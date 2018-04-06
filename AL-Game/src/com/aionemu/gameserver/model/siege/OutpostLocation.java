@@ -17,6 +17,7 @@
 package com.aionemu.gameserver.model.siege;
 
 import com.aionemu.gameserver.model.templates.siegelocation.SiegeLocationTemplate;
+
 import java.util.List;
 
 /**

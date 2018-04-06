@@ -16,22 +16,6 @@
  */
 package com.aionemu.gameserver.network.aion;
 
-import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.channels.SocketChannel;
-import java.util.concurrent.ScheduledFuture;
-import java.util.concurrent.atomic.AtomicReference;
-
-import javolution.util.FastList;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.aionemu.commons.network.AConnection;
-import com.aionemu.commons.network.Dispatcher;
-import com.aionemu.commons.network.PacketProcessor;
-import com.aionemu.commons.utils.concurrent.ExecuteWrapper;
-import com.aionemu.commons.utils.concurrent.RunnableStatsManager;
 import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.configs.network.NetworkConfig;
 import com.aionemu.gameserver.model.account.Account;
@@ -44,7 +28,21 @@ import com.aionemu.gameserver.network.loginserver.LoginServer;
 import com.aionemu.gameserver.network.loginserver.serverpackets.SM_MAC;
 import com.aionemu.gameserver.services.player.PlayerLeaveWorldService;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.commons.network.AConnection;
+import com.aionemu.commons.network.Dispatcher;
+import com.aionemu.commons.network.PacketProcessor;
+import com.aionemu.commons.utils.concurrent.ExecuteWrapper;
+import com.aionemu.commons.utils.concurrent.RunnableStatsManager;
 import com.google.common.base.Preconditions;
+import javolution.util.FastList;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import java.nio.channels.SocketChannel;
+import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * Object representing connection between GameServer and Aion Client.

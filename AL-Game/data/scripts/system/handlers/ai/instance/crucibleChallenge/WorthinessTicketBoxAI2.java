@@ -16,14 +16,13 @@
  */
 package ai.instance.crucibleChallenge;
 
-import java.util.Set;
-
+import ai.ChestAI2;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.model.drop.DropItem;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.services.drop.DropRegistrationService;
 
-import ai.ChestAI2;
+import java.util.Set;
 
 /**
  *

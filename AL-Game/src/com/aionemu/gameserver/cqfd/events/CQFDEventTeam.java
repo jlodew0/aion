@@ -1,12 +1,11 @@
 package com.aionemu.gameserver.cqfd.events;
 
-import java.util.ArrayList;
-
+import com.aionemu.gameserver.cqfd.events.tools.eventTools;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aionemu.gameserver.cqfd.events.tools.eventTools;
-import com.aionemu.gameserver.model.gameobjects.player.Player;
+import java.util.ArrayList;
 
 public class CQFDEventTeam {
 	/*

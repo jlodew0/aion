@@ -1,8 +1,5 @@
 package com.aionemu.gameserver.command.admin;
 
-import java.util.Iterator;
-
-import com.aionemu.commons.database.dao.DAOManager;
 import com.aionemu.gameserver.command.BaseCommand;
 import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.dao.OldNamesDAO;
@@ -18,6 +15,9 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.services.player.PlayerService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.Util;
+import com.aionemu.commons.database.dao.DAOManager;
+
+import java.util.Iterator;
 
 
 /*No parameters detected.\n" + "Please use //rename <Player name> <rename>\n"

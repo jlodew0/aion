@@ -16,7 +16,6 @@
  */
 package com.aionemu.gameserver.controllers;
 
-import com.aionemu.commons.database.dao.DAOManager;
 import com.aionemu.gameserver.dao.PlayerPetsDAO;
 import com.aionemu.gameserver.model.TaskId;
 import com.aionemu.gameserver.model.gameobjects.Pet;
@@ -24,6 +23,7 @@ import com.aionemu.gameserver.model.gameobjects.VisibleObject;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_PET;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.commons.database.dao.DAOManager;
 
 /**
  * @author ATracer

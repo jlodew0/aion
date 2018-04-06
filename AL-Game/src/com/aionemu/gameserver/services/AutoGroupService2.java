@@ -16,23 +16,13 @@
  */
 package com.aionemu.gameserver.services;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.commons.network.util.ThreadPoolManager;
 import com.aionemu.gameserver.configs.custom.CustomFun;
 import com.aionemu.gameserver.configs.main.LoggingConfig;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.instance.InstanceEngine;
 import com.aionemu.gameserver.model.Race;
-import com.aionemu.gameserver.model.autogroup.AutoGroupsType;
-import com.aionemu.gameserver.model.autogroup.AutoInstance;
-import com.aionemu.gameserver.model.autogroup.EntryRequestType;
-import com.aionemu.gameserver.model.autogroup.LookingForParty;
-import com.aionemu.gameserver.model.autogroup.SearchInstance;
+import com.aionemu.gameserver.model.autogroup.*;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.instance.instancereward.DredgionReward;
 import com.aionemu.gameserver.model.instance.instancereward.PvPArenaReward;
@@ -53,6 +43,11 @@ import com.aionemu.gameserver.world.WorldMap;
 import com.aionemu.gameserver.world.WorldMapInstance;
 import com.aionemu.gameserver.world.WorldMapInstanceFactory;
 import javolution.util.FastMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *

@@ -16,9 +16,8 @@
  */
 package ai.instance.tallocsHollow;
 
-import com.aionemu.gameserver.ai2.AIName;
-
 import ai.PortalDialogAI2;
+import com.aionemu.gameserver.ai2.AIName;
 
 /**
  * @author xTz
