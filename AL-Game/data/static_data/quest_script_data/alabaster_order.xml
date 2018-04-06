@@ -44,7 +44,7 @@
 			35050 [XML] Vanquish Grim Puca
 			35051 [XML] Causing Much Angrief
 			38000 [SCRIPT] Call of the Alabaster Order
-			38003 [TODO] Alabaster Order's Call
+			38003 [XMLS] Alabaster Order's Call
 		[END] SUMMARY
 	-->
 	<!-- REPORTING QUESTS -->
@@ -159,4 +159,5 @@
 	<monster_hunt id="35051" start_npc_id="0" end_npc_id="799800" end_npc_id2="799801">
 		<monster end_var="5" var="0" npc_id="215863"/>
 	</monster_hunt>
+	<report_to id="38003" start_npc_id="203726" end_npc_id="799803"/>
 </quest_scripts>
