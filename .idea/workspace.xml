@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7ea7542-0269-4ffa-a3ad-0712905afbcf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AE-Commons/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AE-Commons/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AE-Commons/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
@@ -597,6 +598,7 @@
       <change beforePath="$PROJECT_DIR$/AE-Commons/testdata/scripts/module_scripts.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AE-Commons/testdata/scripts/scriptManagerTest/TestOnClassLoadAndUnload.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AE-Commons/testdata/scripts/scriptManagerTest/TestScheduledRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AL-Game/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AL-Game/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/AE-Commons/target/" />
     <ignored path="$PROJECT_DIR$/AL-Game/target/" />
@@ -616,23 +618,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AL-Game/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4930">
-              <caret line="290" column="21" selection-start-line="290" selection-start-column="21" selection-end-line="290" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WalkerGroup.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/spawnengine/WalkerGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1891">
+              <caret line="131" column="59" lean-forward="true" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -686,7 +676,6 @@
         <option value="$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/dao/AbyssRankDAO.java" />
         <option value="$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/dao/FriendListDAO.java" />
         <option value="$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/dao/PlayerRankDAO.java" />
-        <option value="$PROJECT_DIR$/AL-Game/pom.xml" />
         <option value="$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/dataholders/ItemGroupsData.java" />
         <option value="$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/model/instance/instancereward/PvPArenaReward.java" />
         <option value="$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/model/team2/alliance/callback/AddPlayerToAllianceCallback.java" />
@@ -714,6 +703,7 @@
         <option value="$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/dataholders/SpawnsData2.java" />
         <option value="$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/model/gameobjects/Servant.java" />
         <option value="$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/spawnengine/WalkerGroup.java" />
+        <option value="$PROJECT_DIR$/AL-Game/pom.xml" />
       </list>
     </option>
   </component>
@@ -754,7 +744,7 @@
           <expand>
             <path>
               <item name="aion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="AL-Game" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -881,15 +871,15 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49895832" weight="0.32837406" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48187634" weight="0.33769062" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48134327" weight="0.33769062" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5181237" side_tool="true" visible="true" weight="0.33769062" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.51865673" side_tool="true" visible="true" weight="0.33769062" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.24466951" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.24733475" />
       <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.24200426" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -921,13 +911,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/skillengine/task/CraftingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="24" column="76" lean-forward="true" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/world/World.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -1264,13 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AL-Game/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4930">
-          <caret line="290" column="21" selection-start-line="290" selection-start-column="21" selection-end-line="290" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/spawnengine/WalkerGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1278,6 +1254,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/model/gameobjects/AionObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AL-Game/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1891">
+          <caret line="131" column="59" lean-forward="true" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1333,7 +1326,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>al-game</last-edited>
+          <last-edited>AL-Login</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
