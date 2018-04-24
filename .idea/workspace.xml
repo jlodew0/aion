@@ -3,602 +3,25 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="4" />
   </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AE-Chat:jar" />
+      <artifact name="AL-Login:jar" />
+      <artifact name="al-game:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a7ea7542-0269-4ffa-a3ad-0712905afbcf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AE_Chat_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AL_Login_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/al_game_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AL-Game/data/scripts/system/database/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatServer/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/ae-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/ae-templates.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/ae_commons.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/al-commons-4.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/al_commons.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/config/network/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/bonecp-0.7.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/bsh-2.0b4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/c3p0-0.9.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/commons-io-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/guava-13.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/javac-1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/javassist-3.15.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/javolution-5.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/jcommander-1.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/junit-4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/logback-classic-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/logback-core-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/mysql-connector-java-5.1.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/quartz-2.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/slf4j-api-1.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/bin/build/dist/commons/libs/testng-6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/ae_commons.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/al_commons.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/Callback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/CallbackPriority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/CallbackResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/EnhancedObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/JavaAgentEnhancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/enhancer/CallbackClassFileTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/enhancer/GlobalCallbackEnhancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/enhancer/ObjectCallbackEnhancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/metadata/GlobalCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/metadata/ObjectCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/util/CallbackPriorityComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/util/CallbackPriorityFastComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/util/CallbacksUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/util/GlobalCallbackHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/callbacks/util/ObjectCallbackHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configs/CommonsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configs/DatabaseConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/ConfigurableProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/Property.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/PropertyTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/PropertyTransformerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/TransformationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/BooleanTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/ByteTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/CharTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/ClassTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/DoubleTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/EnumTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/FileTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/FloatTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/InetSocketAddressTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/IntegerTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/LongTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/PatternTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/ShortTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/configuration/transformers/StringTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/CallReadStH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/DB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/DatabaseFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/IUStH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/ParamReadStH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/ReadStH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/dao/DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/dao/DAOAlreadyRegisteredException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/dao/DAOException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/dao/DAOLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/dao/DAOManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/dao/DAONotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/database/dao/DisabledDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/AConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/AcceptDispatcherImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/AcceptReadWriteDispatcherImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/Acceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/ConnectionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/DisconnectionTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/DisconnectionThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/Dispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/IPRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/NioServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/PacketProcessor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/PacketProcessor$CheckerTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/PacketProcessor$DummyExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/PacketProcessor$PacketProcessorTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/PacketProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/ServerCfg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/packet/BaseClientPacket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/packet/BasePacket$PacketType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/packet/BasePacket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/packet/BaseServerPacket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/util/DeadLockDetector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/util/ThreadPoolManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/util/ThreadPoolManager$SingletonHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/util/ThreadPoolManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/network/util/ThreadUncaughtExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/objects/filter/AndObjectFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/objects/filter/ObjectFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/options/Assertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/CompilationResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/ScriptClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/ScriptCompiler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/ScriptContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/ScriptContextFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/classlistener/AggregatedClassListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/classlistener/ClassListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/classlistener/OnClassLoadUnloadListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/classlistener/ScheduledTaskClassListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/impl/ScriptContextImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/impl/javacompiler/BinaryClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/impl/javacompiler/ClassFileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/impl/javacompiler/ErrorListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/impl/javacompiler/JavaSourceFromFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/impl/javacompiler/JavaSourceFromString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/impl/javacompiler/ScriptClassLoaderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/impl/javacompiler/ScriptCompilerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/metadata/OnClassLoad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/metadata/OnClassUnload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/metadata/Scheduled.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/scriptmanager/ScriptInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/scriptmanager/ScriptList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/scriptmanager/ScriptManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/url/VirtualClassURLConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/scripting/url/VirtualClassURLStreamHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/services/CronService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/services/ScriptService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/services/cron/CronServiceException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/services/cron/RunnableRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/taskmanager/AbstractLockManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/AEFastCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/AEFastSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/AEInfos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/Base64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/ClassUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/ExitCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/GenericValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/MTRandom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/NetworkUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/PropertiesUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/Rnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/SystemPropertyUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/collections/IteratorIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/AionRejectedExecutionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/ExecuteWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/PriorityThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager$ClassStat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager$MethodStat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager$SortBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager$SortBy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/RunnableWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/concurrent/ScheduledFutureWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/i18n/ResourceBundleControl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/i18n/ResourceBundleControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$BiAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$BiFun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$CHMView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$CounterCell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$CounterHashCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$DoubleByDoubleToDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$DoubleToDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$EntryIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$EntrySetView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachEntryTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachKeyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachMappingTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachTransformedEntryTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachTransformedKeyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachTransformedMappingTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachTransformedValueTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachValueTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForkJoinTasks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Fun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Generator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$IntByIntToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$IntToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$KeyIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$KeySetView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$LongByLongToLong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$LongToLong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceEntriesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceEntriesToDoubleTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceEntriesToIntTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceEntriesToLongTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceKeysTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceKeysToDoubleTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceKeysToIntTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceKeysToLongTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceMappingsTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceMappingsToDoubleTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceMappingsToIntTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceMappingsToLongTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceValuesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceValuesToDoubleTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceValuesToIntTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceValuesToLongTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectByObjectToDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectByObjectToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectByObjectToLong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectToDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectToLong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ReduceEntriesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ReduceKeysTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ReduceValuesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$SearchEntriesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$SearchKeysTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$SearchMappingsTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$SearchValuesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Segment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Spliterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Traverser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$TreeBin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ValueIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ValuesView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/CountedCompleter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/CountedCompleter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$DefaultForkJoinWorkerThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$EmptyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$ForkJoinWorkerThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$ManagedBlocker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$Submitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$WorkQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask$AdaptedCallable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask$AdaptedRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask$AdaptedRunnableAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask$ExceptionNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinWorkerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/PlatformDependent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/internal/chmv8/PlatformDependent0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/xml/GenericMapAdapter$KeyValuePair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/xml/GenericMapAdapter$KeyValuePairContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/xml/GenericMapAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/xml/JAXBUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/xml/StringSchemaOutputResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/utils/xml/XmlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/versionning/Locator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/versionning/Locator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/commons/versionning/Version.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/conversion/SimpleStartupTriggeringPolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/conversion/TruncateToZipFileAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/AuditFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/AutoGroupFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/ChatLogFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/ConsoleFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/CraftFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/DropFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/GmAuditFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/InGameShopFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/ItemFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/SiegeFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/SystemMailServiceFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/classes/com/aionlightning/slf4j/filters/ThrowablePresentFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/config/network/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/bonecp-0.7.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/bsh-2.0b4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/c3p0-0.9.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/commons-io-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/guava-13.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/javac-1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/javassist-3.15.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/javolution-5.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/jcommander-1.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/junit-4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/logback-classic-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/logback-core-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/mysql-connector-java-5.1.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/quartz-2.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/slf4j-api-1.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/build/dist/commons/libs/testng-6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/config/network/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/bonecp-0.7.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/bsh-2.0b4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/c3p0-0.9.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/commons-io-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/guava-13.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/javac-1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/javassist-3.15.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/javolution-5.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/jcommander-1.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/junit-4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/logback-classic-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/logback-core-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/mysql-connector-java-5.1.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/quartz-2.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/slf4j-api-1.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/libs/testng-6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/Callback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/CallbackPriority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/CallbackResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/EnhancedObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/JavaAgentEnhancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/enhancer/CallbackClassFileTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/enhancer/GlobalCallbackEnhancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/enhancer/ObjectCallbackEnhancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/metadata/GlobalCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/metadata/ObjectCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/util/CallbackPriorityComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/util/CallbackPriorityFastComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/util/CallbacksUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/util/GlobalCallbackHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/callbacks/util/ObjectCallbackHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configs/CommonsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configs/DatabaseConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/ConfigurableProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/Property.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/PropertyTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/PropertyTransformerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/TransformationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/BooleanTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/ByteTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/CharTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/ClassTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/DoubleTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/EnumTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/FileTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/FloatTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/InetSocketAddressTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/IntegerTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/LongTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/PatternTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/ShortTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/configuration/transformers/StringTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/CallReadStH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/DB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/DatabaseFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/IUStH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/ParamReadStH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/ReadStH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/dao/DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/dao/DAOAlreadyRegisteredException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/dao/DAOException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/dao/DAOLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/dao/DAOManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/dao/DAONotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/database/dao/DisabledDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/AConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/AcceptDispatcherImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/AcceptReadWriteDispatcherImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/Acceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/ConnectionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/DisconnectionTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/DisconnectionThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/Dispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/IPRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/NioServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/PacketProcessor$CheckerTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/PacketProcessor$DummyExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/PacketProcessor$PacketProcessorTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/PacketProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/ServerCfg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/packet/BaseClientPacket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/packet/BasePacket$PacketType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/packet/BasePacket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/packet/BaseServerPacket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/util/DeadLockDetector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/util/ThreadPoolManager$SingletonHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/util/ThreadPoolManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/network/util/ThreadUncaughtExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/objects/filter/AndObjectFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/objects/filter/ObjectFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/options/Assertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/CompilationResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/ScriptClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/ScriptCompiler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/ScriptContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/ScriptContextFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/classlistener/AggregatedClassListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/classlistener/ClassListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/classlistener/OnClassLoadUnloadListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/classlistener/ScheduledTaskClassListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/impl/ScriptContextImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/impl/javacompiler/BinaryClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/impl/javacompiler/ClassFileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/impl/javacompiler/ErrorListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/impl/javacompiler/JavaSourceFromFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/impl/javacompiler/JavaSourceFromString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/impl/javacompiler/ScriptClassLoaderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/impl/javacompiler/ScriptCompilerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/metadata/OnClassLoad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/metadata/OnClassUnload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/metadata/Scheduled.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/scriptmanager/ScriptInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/scriptmanager/ScriptList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/scriptmanager/ScriptManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/url/VirtualClassURLConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/scripting/url/VirtualClassURLStreamHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/services/CronService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/services/ScriptService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/services/cron/CronServiceException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/services/cron/RunnableRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/taskmanager/AbstractLockManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/AEFastCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/AEFastSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/AEInfos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/Base64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/ClassUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/ExitCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/GenericValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/MTRandom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/NetworkUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/PropertiesUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/Rnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/SystemPropertyUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/collections/IteratorIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/concurrent/AionRejectedExecutionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/concurrent/ExecuteWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/concurrent/PriorityThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager$ClassStat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager$MethodStat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager$SortBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager$SortBy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/concurrent/RunnableStatsManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/concurrent/RunnableWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/concurrent/ScheduledFutureWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/i18n/ResourceBundleControl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/i18n/ResourceBundleControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$BiAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$BiFun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$CHMView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$CounterCell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$CounterHashCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$DoubleByDoubleToDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$DoubleToDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$EntryIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$EntrySetView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachEntryTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachKeyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachMappingTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachTransformedEntryTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachTransformedKeyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachTransformedMappingTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachTransformedValueTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForEachValueTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ForkJoinTasks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Fun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Generator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$IntByIntToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$IntToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$KeyIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$KeySetView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$LongByLongToLong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$LongToLong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceEntriesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceEntriesToDoubleTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceEntriesToIntTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceEntriesToLongTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceKeysTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceKeysToDoubleTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceKeysToIntTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceKeysToLongTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceMappingsTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceMappingsToDoubleTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceMappingsToIntTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceMappingsToLongTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceValuesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceValuesToDoubleTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceValuesToIntTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$MapReduceValuesToLongTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectByObjectToDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectByObjectToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectByObjectToLong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectToDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ObjectToLong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ReduceEntriesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ReduceKeysTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ReduceValuesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$SearchEntriesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$SearchKeysTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$SearchMappingsTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$SearchValuesTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Segment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Spliterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$Traverser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$TreeBin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ValueIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8$ValuesView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ConcurrentHashMapV8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/CountedCompleter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/CountedCompleter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$DefaultForkJoinWorkerThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$EmptyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$ForkJoinWorkerThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$ManagedBlocker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$Submitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool$WorkQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask$AdaptedCallable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask$AdaptedRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask$AdaptedRunnableAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask$ExceptionNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/ForkJoinWorkerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/PlatformDependent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/internal/chmv8/PlatformDependent0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/xml/GenericMapAdapter$KeyValuePair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/xml/GenericMapAdapter$KeyValuePairContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/xml/GenericMapAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/xml/JAXBUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/xml/StringSchemaOutputResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/utils/xml/XmlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/versionning/Locator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/versionning/Locator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/commons/versionning/Version.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/conversion/SimpleStartupTriggeringPolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/conversion/TruncateToZipFileAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/AuditFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/AutoGroupFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/ChatLogFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/ConsoleFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/CraftFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/DropFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/GmAuditFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/InGameShopFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/ItemFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/SiegeFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/SystemMailServiceFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/classes/com/aionlightning/slf4j/filters/ThrowablePresentFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/CallbacksTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/CallbacksTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/CallbacksTest$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/CallbacksTest$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/CallbacksTest$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/CallbacksTest$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/CallbacksTest$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/CallbacksTest$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/CallbacksTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/files/AbstractCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/files/InheritanceTestCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/files/InheritanceTestChild.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/files/InheritanceTestSuperclass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/files/TestCallbackIntObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/callbacks/files/TestGlobalCallbacksCaller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/network/util/DeadlockTest$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/network/util/DeadlockTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/network/util/DeadlockTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/network/util/DeadlockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/scripting/scriptmanager/ScriptManagerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/scripting/scriptmanager/listener/ScheduledTaskClassListenerTestAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/services/CronServiceTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/services/CronServiceTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/services/CronServiceTest$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/services/CronServiceTest$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/services/CronServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/target/test-classes/com/aionemu/commons/services/cron/CurrentThreadRunnableRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/callbacks/CallbacksTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/callbacks/files/AbstractCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/callbacks/files/InheritanceTestCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/callbacks/files/InheritanceTestChild.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/callbacks/files/InheritanceTestSuperclass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/callbacks/files/TestCallbackIntObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/callbacks/files/TestGlobalCallbacksCaller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/network/util/DeadlockTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/scripting/scriptmanager/ScriptManagerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/scripting/scriptmanager/listener/ScheduledTaskClassListenerTestAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/services/CronServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/test/com/aionemu/commons/services/cron/CurrentThreadRunnableRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/testdata/scripts/module_scripts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/testdata/scripts/scriptManagerTest/TestOnClassLoadAndUnload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AE-Commons/testdata/scripts/scriptManagerTest/TestScheduledRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AL-Game/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AL-Game/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AL-Game/dist/StartGS.bat" beforeDir="false" afterPath="$PROJECT_DIR$/AL-Game/dist/StartGS.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AL-Login/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/AL-Login/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AL-Login/AL-Login.eml" beforeDir="false" afterPath="$PROJECT_DIR$/AL-Login/AL-Login.eml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/AE-Commons/target/" />
     <ignored path="$PROJECT_DIR$/AL-Game/target/" />
@@ -618,12 +41,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AL-Game/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1891">
-              <caret line="131" column="59" lean-forward="true" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
+            <state relative-caret-position="17">
+              <caret line="131" column="59" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AL-Game/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1326" />
           </provider>
         </entry>
       </file>
@@ -738,13 +168,23 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="aion" type="b2602c69:ProjectViewProjectNode" />
               <item name="AL-Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aion" type="58d84e3e:PackageViewProjectNode" />
+              <item name="al-game" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -758,7 +198,8 @@
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="aion" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="al-gameserver" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -766,7 +207,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/AL-Game/libs/al-commons-1.3.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4632184" />
     <property name="run.code.analysis.last.selected.profile" value="pAion-inspection" />
@@ -789,9 +230,60 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in al-game">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in AL-Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AL-Login" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="All in al-game (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="al-game" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="All in al-game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="al-game" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -831,6 +323,18 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.All in al-game" />
+      <item itemvalue="JUnit.All in al-game (1)" />
+      <item itemvalue="JUnit.All in AL-Login" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in al-game" />
+        <item itemvalue="JUnit.All in AL-Login" />
+        <item itemvalue="JUnit.All in al-game (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="StructuralSearchPlugin">
     <replaceConfiguration name="user defined" text="com.aionlightning." recursive="false" caseInsensitive="true" type="JAVA" reformatAccordingToStyle="true" shortenFQN="true" useStaticImport="true" replacement="com.aionemu.">
@@ -870,16 +374,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49895832" weight="0.32837406" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48134327" weight="0.33769062" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.3278867" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48081023" weight="0.33769062" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.51865673" side_tool="true" visible="true" weight="0.33769062" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.32897604" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32897604" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.24733475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.24200426" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -897,7 +402,6 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -911,13 +415,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/world/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AL-Game/src/com/aionemu/gameserver/services/MailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1251,9 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1261,17 +755,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AL-Game/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1891">
-          <caret line="131" column="59" lean-forward="true" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
+        <state relative-caret-position="17">
+          <caret line="131" column="59" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AL-Game/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326" />
       </provider>
     </entry>
   </component>
@@ -1280,10 +776,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>AL-Login:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.4632184" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1326,11 +824,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AL-Login</last-edited>
+          <last-edited>al-game</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.4632184" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AE-Chat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AE_Chat_jar</output-path>
+    <root id="archive" name="AE-Chat.jar">
+      <element id="module-output" name="AE-Chat" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/javac-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/javolution-5.5.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/commons-dbcp-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/commons-io-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/commons-lang-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/junit-4.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/ax-commons-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/log4j-1.2.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/commons-pool-1.5.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ChatServer/lib/netty-3.2.0.BETA1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

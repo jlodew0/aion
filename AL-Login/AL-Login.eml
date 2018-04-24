@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component inheritJdk="true">
-	<exclude-output/>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/../out/test/AL-Login"/>
 	<contentEntry url="file://$MODULE_DIR$"/>
 	<lib name="bonecp-0.7.1.RELEASE.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/AL-Login/libs/bonecp-0.7.1.RELEASE.jar!/"/>
